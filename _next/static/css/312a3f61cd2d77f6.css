@@ -1,0 +1,960 @@
+.shimmerWrap .para {
+    height: 12px;
+    margin: 5px 0;
+    border-radius: 4px;
+    width: 70%
+}
+
+.shimmerWrap .shimmerLogo {
+    width: 126px;
+    height: 40px;
+    margin: 5px 0;
+    border-radius: 4px
+}
+
+.shimmerWrap .shimmerHeading {
+    height: 26px;
+    margin: 5px 0;
+    display: inline-block;
+    width: 50%;
+    position: relative;
+    border-radius: 4px
+}
+
+.shimmerWrap .shimmerIcon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%
+}
+
+.shimmerWrap .shimmerIcon.big {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%
+}
+
+.shimmerWrap .shimmerIcon.infoGraphic {
+    width: 250px;
+    height: 250px
+}
+
+.shimmerWrap .shimmerBtn {
+    width: 100%;
+    max-width: 150px;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 4px
+}
+
+.shimmerWrap .shimmerBtn.sm {
+    height: 25px
+}
+
+.shimmerWrap .shimmerBtn.cta {
+    height: 8px;
+    max-width: 100px
+}
+
+.shimmerWrap .shimmerBox {
+    width: 100%;
+    height: 166px;
+    border-radius: 16px;
+    margin: 5px auto
+}
+
+.shimmerWrap .formFields {
+    width: 100%;
+    height: 55px;
+    border-radius: 8px
+}
+
+.shimmerWrap .shimmerTag {
+    border-radius: 80px;
+    margin-bottom: 8px;
+    height: 17px;
+    display: block;
+    max-width: 80px
+}
+
+.shimmerWrap .card {
+    padding: 16px 24px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(37, 56, 88, .2);
+    height: 393px
+}
+
+.shimmerWrap .shimmerList {
+    list-style: none
+}
+
+.shimmerWrap .shimmerList li {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px
+}
+
+.shimmerWrap .shimmerList li * {
+    width: 100%
+}
+
+.shimmer {
+    background: #f6f7f8;
+    display: inline-block;
+    position: relative;
+    overflow: hidden
+}
+
+.shimmer:after {
+    content: "";
+    display: block;
+    height: 373px;
+    position: absolute;
+    top: -95px;
+    left: 0;
+    transform: translate(-100%) rotate(45deg);
+    right: 0;
+    background: linear-gradient(90deg, hsla(0, 4%, 95%, 0), hsla(0, 0%, 95%, .639) 80%, hsla(0, 4%, 95%, 0), hsla(0, 0%, 95%, .639));
+    animation: ShimmerEffect .8s linear infinite forwards;
+    -webkit-animation: ShimmerEffect .8s linear infinite forwards
+}
+
+@keyframes ShimmerEffect {
+    0% {
+        transform: translate(-100%) rotate(45deg)
+    }
+    to {
+        transform: translate(100%) rotate(45deg)
+    }
+}
+
+.CarRegDetails_blackOverLay__P_yqZ,
+.CarRegDetails_fadeIn__KuATR,
+.CarRegDetails_whiteBox__Ypa7F {
+    animation: CarRegDetails_fadeIn__KuATR .6s ease-in-out;
+    -webkit-animation: CarRegDetails_fadeIn__KuATR .6s ease-in-out
+}
+
+.CarRegDetails_fadeIn__KuATR.CarRegDetails_fourSec__tScyO,
+.CarRegDetails_fourSec__tScyO.CarRegDetails_blackOverLay__P_yqZ,
+.CarRegDetails_fourSec__tScyO.CarRegDetails_whiteBox__Ypa7F {
+    animation-duration: .4s !important
+}
+
+@keyframes CarRegDetails_fadeIn__KuATR {
+    0% {
+        opacity: 0
+    }
+    90% {
+        opacity: .9
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.CarRegDetails_slideToTop__ItYHl {
+    animation: CarRegDetails_slideToTop__ItYHl .4s ease-in-out;
+    -webkit-animation: CarRegDetails_slideToTop__ItYHl .4s ease-in-out
+}
+
+@keyframes CarRegDetails_slideToTop__ItYHl {
+    0% {
+        transform: translateY(100%)
+    }
+    to {
+        transform: translateY(0)
+    }
+}
+
+@keyframes CarRegDetails_pulse__8375I {
+    0% {
+        transform: scaleX(1)
+    }
+    50% {
+        transform: scale3d(1.05, 1.05, 1.05)
+    }
+    to {
+        transform: scaleX(1)
+    }
+}
+
+.CarRegDetails_animate_pulse__ZwZFC {
+    animation-name: CarRegDetails_pulse__8375I;
+    animation-timing-function: ease-in-out;
+    animation-duration: .4s;
+    -webkit-animation-duration: .4s
+}
+
+.CarRegDetails_slideToLeft__VQ_PN {
+    animation: CarRegDetails_slideToLeft__VQ_PN .4s ease-in-out
+}
+
+.CarRegDetails_slideToRight__FcvNk {
+    animation: CarRegDetails_slideToRight__FcvNk .4s ease-in-out
+}
+
+@keyframes CarRegDetails_slideToLeft__VQ_PN {
+    0% {
+        transform: translate(20%)
+    }
+    to {
+        transform: translate(0)
+    }
+}
+
+@keyframes CarRegDetails_slideToRight__FcvNk {
+    0% {
+        opacity: 0
+    }
+    50% {
+        opacity: 0;
+        transform: translate(-20%)
+    }
+    60% {
+        opacity: 0
+    }
+    to {
+        opacity: 1;
+        transform: translate(0)
+    }
+}
+
+.CarRegDetails_animate_fadeInDown__KI0DV {
+    animation: CarRegDetails_fadeInDown__KYfBb .4s ease-in-out;
+    -webkit-animation: CarRegDetails_fadeInDown__KYfBb .4s ease-in-out
+}
+
+@keyframes CarRegDetails_fadeInDown__KYfBb {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -20%, 0)
+    }
+    to {
+        opacity: 1;
+        transform: translateZ(0)
+    }
+}
+
+.CarRegDetails_bgFixed__EQ4RG {
+    overflow: hidden
+}
+
+.CarRegDetails_borderRadius16__BNzoC {
+    border-radius: 16px !important
+}
+
+.CarRegDetails_borderRadius8__ixMr6 {
+    border-radius: 8px !important
+}
+
+.CarRegDetails_borderRadius4__HgOXd {
+    border-radius: 4px !important
+}
+
+.CarRegDetails_secondaryFont__Zule4 {
+    font-family: Merriweather
+}
+
+.CarRegDetails_textGray___u1cS {
+    color: rgba(37, 56, 88, .6)
+}
+
+.CarRegDetails_textBlue__Zs8WP {
+    color: #0065ff !important
+}
+
+.CarRegDetails_underline__yMCgK {
+    text-decoration: underline !important
+}
+
+.CarRegDetails_displayInlineBlock__i7yl4 {
+    display: inline-block !important
+}
+
+.CarRegDetails_displayBlock__XhQOE {
+    display: block !important
+}
+
+.CarRegDetails_truncate__yak42 {
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.CarRegDetails_cursorPointer__lOsES {
+    cursor: pointer
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE,
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_otherOptions__kdTBj .CarRegDetails_blueTextButton__P1blP,
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_renewInMins__hqm48,
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_saveText__3zb7c .CarRegDetails_saveUpto__LEaSD,
+.CarRegDetails_headingType2__NMMx1.CarRegDetails_v2__PFDRy,
+.CarRegDetails_headingType2__NMMx1.CarRegDetails_v2__PFDRy span,
+.CarRegDetails_posRelative__YUmWk {
+    position: relative
+}
+
+.CarRegDetails_blackOverLay__P_yqZ,
+.CarRegDetails_posFixed__8JQln {
+    position: fixed
+}
+
+.CarRegDetails_posStatic___yDGr {
+    position: static
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE .CarRegDetails_carNumberLabel__nDm6t,
+.CarRegDetails_headingType2__NMMx1.CarRegDetails_v2__PFDRy:after,
+.CarRegDetails_loaderOverLay__aaZj1,
+.CarRegDetails_posAbsolute__KNaFN,
+ul.CarRegDetails_bulletList__g9v_q li:before {
+    position: absolute
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_renewInMins__hqm48 img,
+.CarRegDetails_downArrow__LzAU8,
+.CarRegDetails_valignMiddle__aJsQW {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.CarRegDetails_width-100__FzCc3 {
+    width: 100% !important;
+    max-width: 100% !important
+}
+
+.CarRegDetails_widthAuto__iJVdN {
+    width: auto !important;
+    min-width: 0 !important;
+    max-width: max-content !important
+}
+
+.CarRegDetails_blueBgScreenHeight__FlcIe {
+    background-color: #f2f7ff;
+    min-height: calc(100vh - 200px);
+    padding: 16px 0
+}
+
+.CarRegDetails_padding0__0141A {
+    padding: 0 !important
+}
+
+.CarRegDetails_m0__nKMQC {
+    margin: 0 !important
+}
+
+.CarRegDetails_mt-0__XykpG {
+    margin-top: 0 !important
+}
+
+.CarRegDetails_mb-0__0GcZU {
+    margin-bottom: 0 !important
+}
+
+.CarRegDetails_mb-4__4hnFO {
+    margin-bottom: 4px !important
+}
+
+.CarRegDetails_mb-6__mYSIy {
+    margin-bottom: 6px !important
+}
+
+.CarRegDetails_mb-24__gtH0K {
+    margin-bottom: 24px !important
+}
+
+.CarRegDetails_mt-4__Wa13o {
+    margin-top: 4px !important
+}
+
+.CarRegDetails_mt-24__5EROm {
+    margin-top: 24px !important
+}
+
+.CarRegDetails_mt-16__0riAp {
+    margin-top: 16px !important
+}
+
+.CarRegDetails_mb-10__rmF4I {
+    margin-bottom: 10px !important
+}
+
+.CarRegDetails_mb-16__rQbu9 {
+    margin-bottom: 16px !important
+}
+
+.CarRegDetails_mb-12__r1ijI {
+    margin-bottom: 12px !important
+}
+
+.CarRegDetails_mt-8__R9V8y {
+    margin-top: 8px !important
+}
+
+.CarRegDetails_mb-8__b0EkE {
+    margin-bottom: 8px !important
+}
+
+.CarRegDetails_mb-32__Wss3s {
+    margin-bottom: 32px !important
+}
+
+.CarRegDetails_smallerFont__VEOv7,
+p.CarRegDetails_smallerFont__VEOv7 {
+    font-size: 1.2rem
+}
+
+.CarRegDetails_greenText__5Xvcq {
+    color: #36b37e
+}
+
+.CarRegDetails_redText__PNl8n {
+    color: #fc4804
+}
+
+.CarRegDetails_highligtedText__ME_n2 {
+    position: relative;
+    display: inline-block
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE input::placeholder,
+.CarRegDetails_fontNormal__P6KfD {
+    font-weight: 400 !important
+}
+
+.CarRegDetails_fontMedium__cyNnN {
+    font-weight: 500 !important
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE input,
+.CarRegDetails_fontSemiBold__Fs_fB {
+    font-weight: 600 !important
+}
+
+.CarRegDetails_fontBold__HZMGM {
+    font-weight: 700 !important
+}
+
+.CarRegDetails_fontThin__YBnwd {
+    font-weight: 300 !important
+}
+
+.CarRegDetails_box__PYoE_,
+.CarRegDetails_whiteBox__Ypa7F {
+    box-shadow: 0 6px 16px rgba(52, 105, 203, .161);
+    background: #fff;
+    display: block
+}
+
+.CarRegDetails_removeScroll__GwwEd {
+    white-space: nowrap;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none
+}
+
+.CarRegDetails_removeScroll__GwwEd::-webkit-scrollbar {
+    display: none
+}
+
+.CarRegDetails_whiteBox__Ypa7F {
+    padding: 16px 24px
+}
+
+.CarRegDetails_whiteBox__Ypa7F p {
+    margin-bottom: 6px
+}
+
+.CarRegDetails_whiteBox__Ypa7F p:last-of-type {
+    margin-bottom: 0
+}
+
+.CarRegDetails_whiteBox__Ypa7F .CarRegDetails_insurerlogo__fD_AJ {
+    max-width: 100%
+}
+
+@media only screen and (max-width:767px) {
+    .CarRegDetails_whiteBox__Ypa7F {
+        padding: 16px
+    }
+}
+
+.CarRegDetails_min_viewport_height__WNNB_ {
+    min-height: 100vh
+}
+
+.CarRegDetails_loaderOverLay__aaZj1,
+.CarRegDetails_verticleCenter__ihQNu {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    left: 0
+}
+
+.CarRegDetails_vhCenter__NwJbc {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.CarRegDetails_heading__wIWky {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 6px
+}
+
+@media only screen and (max-width:320px) {
+    .CarRegDetails_heading__wIWky .CarRegDetails_heading__wIWky {
+        font-size: 2rem
+    }
+}
+
+.CarRegDetails_headingV1__O3IpA {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 6px
+}
+
+@media only screen and (max-width:767px) {
+    .CarRegDetails_headingV1__O3IpA {
+        font-size: 1.6rem
+    }
+}
+
+.CarRegDetails_headingV2__aw31Q {
+    font-size: 1.8rem;
+    font-weight: 700
+}
+
+@media only screen and (max-width:767px) {
+    .CarRegDetails_headingV2__aw31Q {
+        line-height: normal
+    }
+}
+
+.CarRegDetails_headingV3__7DOJ_ {
+    font-size: 1.6rem;
+    margin-bottom: 4px;
+    font-weight: 700
+}
+
+.CarRegDetails_headingV4__OMgHT {
+    font-size: 1.4rem;
+    font-weight: 600
+}
+
+.CarRegDetails_headingType2__NMMx1 {
+    font-size: 1.2rem
+}
+
+.CarRegDetails_headingType2__NMMx1:after {
+    content: "";
+    width: 24px;
+    border-top: 1px solid rgba(37, 56, 88, .6);
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.CarRegDetails_headingType2__NMMx1.CarRegDetails_v2__PFDRy {
+    margin: 8px 0
+}
+
+.CarRegDetails_headingType2__NMMx1.CarRegDetails_v2__PFDRy span {
+    display: inline-block;
+    background: #fff;
+    padding-right: 8px;
+    color: rgba(37, 56, 88, .7);
+    z-index: 1
+}
+
+.CarRegDetails_headingType2__NMMx1.CarRegDetails_v2__PFDRy:after {
+    display: block;
+    width: 100%;
+    top: 6px;
+    right: 0;
+    border-color: rgba(37, 56, 88, .1)
+}
+
+.CarRegDetails_rightArrow__WJlgH {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-right: 1px solid #0065ff;
+    border-bottom: 1px solid #0065ff;
+    transform: rotate(-45deg)
+}
+
+.CarRegDetails_dotSeparator__zFLaq span {
+    display: inline-block
+}
+
+.CarRegDetails_dotSeparator__zFLaq span:after {
+    content: ".";
+    margin: 0 5px;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 22px;
+    line-height: 4px
+}
+
+.CarRegDetails_dotSeparator__zFLaq span:last-of-type:after {
+    display: none
+}
+
+.CarRegDetails_downArrow__LzAU8 {
+    width: 5px;
+    height: 5px;
+    border-right: 1px solid #0065ff;
+    border-bottom: 1px solid #0065ff;
+    transform: rotate(45deg)
+}
+
+.CarRegDetails_downArrow__LzAU8.CarRegDetails_lg__OjKtK {
+    width: 10px;
+    height: 10px;
+    border-width: 2px
+}
+
+.CarRegDetails_dashedBtmBorder__j8NOr {
+    border-bottom: 1px dashed rgba(37, 56, 88, .2)
+}
+
+ul.CarRegDetails_bulletList__g9v_q {
+    list-style: none;
+    margin-bottom: 10px
+}
+
+ul.CarRegDetails_bulletList__g9v_q li {
+    margin-bottom: 10px;
+    padding-left: 16px;
+    position: relative
+}
+
+ul.CarRegDetails_bulletList__g9v_q li:before {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgba(37, 56, 88, .6);
+    top: 6px;
+    left: 0
+}
+
+ul.CarRegDetails_bulletList__g9v_q li:last-of-type {
+    margin-bottom: 0
+}
+
+.CarRegDetails_blackOverLay__P_yqZ {
+    background: rgba(37, 56, 88, .3);
+    animation-duration: .4s !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10
+}
+
+@media only screen and (max-width:767px) {
+    .CarRegDetails_blackOverLay__P_yqZ {
+        animation: none !important
+    }
+}
+
+.CarRegDetails_loadingOverlay__L37j0 {
+    position: relative;
+    overflow: hidden
+}
+
+.CarRegDetails_loadingOverlay__L37j0 .CarRegDetails_overLay__b8ze5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: hsla(0, 0%, 100%, .7);
+    z-index: 99
+}
+
+.CarRegDetails_loaderOverLay__aaZj1 {
+    right: 0;
+    margin: 0 auto
+}
+
+.CarRegDetails_loaderOverLay__aaZj1 span {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    margin: 0 3px;
+    background: hsla(0, 0%, 100%, .4);
+    border-radius: 50%;
+    transform: translateY(0);
+    -moz-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    animation: CarRegDetails_waveOverlay__oGBEr 2s ease-in-out infinite;
+    -moz-animation: CarRegDetails_waveOverlay__oGBEr 2s ease-in-out infinite;
+    -webkit-animation: CarRegDetails_waveOverlay__oGBEr 2s ease-in-out infinite
+}
+
+@keyframes CarRegDetails_waveOverlay__oGBEr {
+    0%,
+    60%,
+    to {
+        background: hsla(0, 0%, 100%, .4);
+        transform: translateY(0);
+        -moz-transform: translateY(0)
+    }
+    20% {
+        background: hsla(0, 0%, 100%, .95);
+        transform: translateY(4px);
+        -moz-transform: translateY(4px)
+    }
+    40% {
+        background: hsla(0, 0%, 100%, .95);
+        transform: translateY(-4px);
+        -moz-transform: translateY(-4px)
+    }
+}
+
+.CarRegDetails_loaderOverLay__aaZj1 span:first-child {
+    animation-delay: 0s;
+    -moz-animation-delay: 0s;
+    -webkit-animation-delay: 0s
+}
+
+.CarRegDetails_loaderOverLay__aaZj1 span:nth-child(2) {
+    animation-delay: .1s;
+    -moz-animation-delay: .1s;
+    -webkit-animation-delay: .1s
+}
+
+.CarRegDetails_loaderOverLay__aaZj1 span:nth-child(3) {
+    animation-delay: .2s;
+    -moz-animation-delay: .2s;
+    -webkit-animation-delay: .2s
+}
+
+.CarRegDetails_loader__Hz4wo {
+    border-radius: 50%;
+    border: 4px solid #f3f3f3;
+    border-top-color: #3498db;
+    width: 54px;
+    height: 54px;
+    animation: CarRegDetails_spin__AJTdE 2s linear infinite
+}
+
+@keyframes CarRegDetails_spin__AJTdE {
+    0% {
+        transform: rotate(0deg)
+    }
+    to {
+        transform: rotate(1turn)
+    }
+}
+
+.CarRegDetails_pageLoder__IAW3T {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+    z-index: 10
+}
+
+.CarRegDetails_smallestFont__xHapg {
+    font-size: 1rem
+}
+
+.CarRegDetails_carRegDetails__JhgL2 {
+    padding: 20px 64px;
+    margin: 0 auto
+}
+
+@media only screen and (max-width:767px) {
+    .CarRegDetails_carRegDetails__JhgL2 {
+        padding: 0
+    }
+}
+
+@media screen and (min-width:320px)and (max-width:940px)and (orientation:landscape) {
+    .CarRegDetails_carRegDetails__JhgL2 {
+        padding: 0
+    }
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_formControl__Nar6N {
+    background: #fff
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_saveText__3zb7c {
+    font-size: 2.6rem;
+    font-weight: 300;
+    line-height: 38px;
+    margin-bottom: 16px;
+    max-width: 345px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+@media only screen and (max-width:767px) {
+    .CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_saveText__3zb7c {
+        font-size: 2rem;
+        line-height: 28px;
+        max-width: 300px;
+        margin-top: 16px
+    }
+}
+
+@media screen and (min-width:320px)and (max-width:940px)and (orientation:landscape) {
+    .CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_saveText__3zb7c {
+        font-size: 2rem;
+        line-height: 28px;
+        max-width: 300px;
+        margin-top: 16px
+    }
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_renewInMins__hqm48 {
+    margin-bottom: 40px;
+    font-weight: 300
+}
+
+@media only screen and (max-width:767px) {
+    .CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_renewInMins__hqm48 {
+        margin-bottom: 24px
+    }
+}
+
+@media screen and (min-width:320px)and (max-width:940px)and (orientation:landscape) {
+    .CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_renewInMins__hqm48 {
+        margin-bottom: 24px
+    }
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_renewInMins__hqm48 img {
+    margin-right: 8px
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE .CarRegDetails_carNumberLabel__nDm6t {
+    left: 0;
+    right: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: rgba(84, 110, 122, .6);
+    font-weight: 500;
+    top: 6px;
+    opacity: 0;
+    transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out;
+    -ms-transition: opacity .15s ease-in-out
+}
+
+@media only screen and (max-width:767px) {
+    .CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE .CarRegDetails_carNumberLabel__nDm6t {
+        top: 4px
+    }
+}
+
+@media screen and (min-width:320px)and (max-width:940px)and (orientation:landscape) {
+    .CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE .CarRegDetails_carNumberLabel__nDm6t {
+        top: 4px
+    }
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE input {
+    font-size: 1.8rem;
+    border: none;
+    height: 72px;
+    border: 1px solid rgba(37, 56, 88, .3);
+    box-shadow: 0 6px 16px 0 rgba(37, 56, 88, .161);
+    border-radius: 8px;
+    text-align: left;
+    text-transform: uppercase
+}
+
+@media only screen and (max-width:767px) {
+    .CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE input {
+        font-size: 1.6rem;
+        height: 64px
+    }
+}
+
+@media screen and (min-width:320px)and (max-width:940px)and (orientation:landscape) {
+    .CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE input {
+        font-size: 1.6rem;
+        height: 64px
+    }
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE input::placeholder {
+    text-transform: none;
+    color: rgba(37, 56, 88, .5)
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE input:not(:placeholder-shown) {
+    text-align: center
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE input:not(:placeholder-shown)~.CarRegDetails_carNumberLabel__nDm6t {
+    opacity: 1
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE.CarRegDetails_error__Dgphi input {
+    border-color: #d3593d !important;
+    color: #d3593d !important
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE.CarRegDetails_error__Dgphi input::placeholder {
+    color: #d3593d !important
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_inputField__CBXxE.CarRegDetails_error__Dgphi .CarRegDetails_carNumberLabel__nDm6t {
+    color: #d3593d !important
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_viewPrice__ZCN8r {
+    margin-bottom: 24px;
+    font-size: 1.8rem;
+    min-height: 56px;
+    margin-top: 24px;
+    background: #ff5630;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+@media only screen and (max-width:767px) {
+    .CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_viewPrice__ZCN8r {
+        font-size: 1.6rem;
+        line-height: 48px;
+        padding: 0;
+        margin-bottom: 22px;
+        margin-top: 22px
+    }
+}
+
+@media screen and (min-width:320px)and (max-width:940px)and (orientation:landscape) {
+    .CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_carRegForm__Iqhdb .CarRegDetails_viewPrice__ZCN8r {
+        font-size: 1.6rem;
+        line-height: 48px;
+        padding: 0;
+        margin-bottom: 22px;
+        margin-top: 22px
+    }
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_otherOptions__kdTBj .CarRegDetails_blueTextButton__P1blP {
+    display: inline-flex;
+    align-items: center
+}
+
+.CarRegDetails_carRegDetails__JhgL2 .CarRegDetails_otherOptions__kdTBj .CarRegDetails_blueTextButton__P1blP .CarRegDetails_arrowRight__z6_YX {
+    margin-left: 6px;
+    margin-bottom: -1px
+}

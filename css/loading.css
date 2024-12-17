@@ -1,0 +1,90 @@
+.loadingtext {
+    text-align: center;
+    padding: 0;
+    top: 50%;
+    position: fixed;
+    left: 50%;
+    line-height: 115px;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-indent: -8px;
+    z-index: 11;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    transform: translate(-50%, -50%);
+}
+
+.Quotespageloading {
+    height: 0;
+    width: 0;
+    padding: 20px;
+    border: 4px solid #98bdf5;
+    border-right-color: #0065ff;
+    border-radius: 45px;
+    -webkit-animation: rotate 1s infinite linear;
+    top: 50%;
+    position: fixed;
+    left: 50%;
+    margin-left: -12px;
+    margin-top: -12px;
+}
+
+@-webkit-keyframes rotate {
+    /* 100% keyframe for  clockwise. 
+     use 0% instead for anticlockwise */
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.iframeoverlay {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width:670px) {
+    .loadingtext {
+        text-align: center;
+        padding: 0;
+        top: 50%;
+        position: fixed;
+        left: 50%;
+        line-height: 115px;
+        font-size: 12px;
+        letter-spacing: 4px;
+        text-indent: -8px;
+        z-index: 11;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        transform: translate(-50%, -50%) !important;
+        z-index: 99991;
+    }
+    .Quotespageloading {
+        height: 0;
+        width: 0;
+        padding: 20px;
+        border: 4px solid #98bdf5;
+        border-right-color: #0065ff;
+        border-radius: 45px;
+        -webkit-animation: rotate 1s infinite linear;
+        top: 50%;
+        position: fixed;
+        left: 50%;
+        margin-left: -12px;
+        margin-top: -12px;
+    }
+    @-webkit-keyframes rotate {
+        /* 100% keyframe for  clockwise.
+     use 0% instead for anticlockwise */
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+}

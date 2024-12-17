@@ -1,0 +1,500 @@
+.ExitIntentPopup_hide__TbkN6 {
+    display: none !important
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 {
+    width: 100%;
+    max-width: 670px;
+    background: #d5f6ff;
+    padding: 8px;
+    z-index: 1002;
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_dilogClose__KECgQ {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    cursor: pointer
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_ExitIntentBanner__pKBOS {
+    width: 206px;
+    height: 201px;
+    background: url(https://static.pbcdn.in/sme-cdn/images/marketing/exit-intent-popup-banner.svg) no-repeat
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_ExitIntentEnquiry__74q9k {
+    padding: 32px;
+    border-radius: 16px;
+    background: #fefeff;
+    width: 65% !important
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_ExitIntentEnquiry__74q9k h2 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 8px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_ExitIntentEnquiry__74q9k p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .256px;
+    color: #5e6c84;
+    margin-bottom: 32px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_ExitIntentEnquiry__74q9k .ExitIntentPopup_formfield__W8m6I {
+    position: relative
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_ExitIntentEnquiry__74q9k .ExitIntentPopup_formfield__W8m6I input {
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #253858;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #5e6c84;
+    height: 56px;
+    transition: border .2s ease-in-out
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_ExitIntentEnquiry__74q9k .ExitIntentPopup_formfield__W8m6I input:focus+label,
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_ExitIntentEnquiry__74q9k .ExitIntentPopup_formfield__W8m6I input:not(:placeholder-shown)+label {
+    font-size: 12px;
+    line-height: 18px;
+    transform: none;
+    top: -10px;
+    color: #253858;
+    letter-spacing: normal
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_ExitIntentEnquiry__74q9k .ExitIntentPopup_formfield__W8m6I label {
+    pointer-events: none;
+    position: absolute;
+    font-size: 16px;
+    line-height: 24px;
+    color: #253858;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+    transition: all .2s ease-in-out;
+    background: #fff;
+    padding: 0 8px;
+    font-weight: 400;
+    cursor: auto
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_ExitIntentEnquiry__74q9k .ExitIntentPopup_formfield__W8m6I.ExitIntentPopup_fieldCheck__yZtTw input {
+    padding-right: 35px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_ExitIntentEnquiry__74q9k .ExitIntentPopup_formfield__W8m6I.ExitIntentPopup_fieldCheck__yZtTw:after {
+    content: "";
+    width: 16px;
+    height: 8px;
+    border: solid #36b37e;
+    border-width: 0 0 2px 2px;
+    position: absolute;
+    right: 16px;
+    top: 20px;
+    transform: rotate(-45deg)
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_ExitIntentEnquiry__74q9k .ExitIntentPopup_formfield__W8m6I .ExitIntentPopup_error__YuHbk {
+    color: #e53935;
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    margin: 3px 0 0 18px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ExitIntentDilog__t55K4 .ExitIntentPopup_ExitIntentEnquiry__74q9k .ExitIntentPopup_exitIntentSubmit__b01ux {
+    background: #0065ff 0 0 no-repeat padding-box;
+    border: 1px solid #0065ff;
+    border-radius: 8px;
+    color: #fff;
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: inherit;
+    max-width: 100%;
+    height: 51px;
+    position: relative;
+    margin-top: 30px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 {
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 16px;
+    width: 400px;
+    min-height: 454px;
+    padding-bottom: 66px;
+    position: relative
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_dateTimeHeading__e2KYi {
+    background: linear-gradient(224.42deg, rgba(191, 236, 255, .4) -28.64%, rgba(193, 188, 255, .4) 107.01%);
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    font-weight: 700;
+    position: relative;
+    border-radius: 16px 16px 0 0
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_dateTimeHeading__e2KYi img {
+    margin-right: 16px;
+    cursor: pointer
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_dateTimeHeading__e2KYi .ExitIntentPopup_popupClose__ahGzN {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    cursor: pointer
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ {
+    padding: 22px 24px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateTimeSwitch__DWl4s {
+    width: 174px;
+    background: #fff;
+    box-shadow: 0 6px 16px rgba(52, 105, 203, .16);
+    border-radius: 100px;
+    padding: 2px;
+    margin: 0 auto
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateTimeSwitch__DWl4s ul {
+    display: flex;
+    list-style: none
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateTimeSwitch__DWl4s ul li {
+    width: 85px;
+    padding: 10px 16px 10px 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateTimeSwitch__DWl4s ul li.ExitIntentPopup_switchDate__4FiFc {
+    background: url(https://static.pbcdn.in/sme-cdn/images/marketing/date-icon.svg) no-repeat 11px 11px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateTimeSwitch__DWl4s ul li.ExitIntentPopup_switchTime__QR_Od {
+    background: url(https://static.pbcdn.in/sme-cdn/images/marketing/time-icon.svg) no-repeat 11px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateTimeSwitch__DWl4s ul li img {
+    margin-right: 6px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateTimeSwitch__DWl4s ul li.ExitIntentPopup_active__OWfwf {
+    background: #deebff;
+    color: #0065ff;
+    border-radius: 50px 0 0 50px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateTimeSwitch__DWl4s ul li.ExitIntentPopup_activeTime__as4R5 {
+    background: url(https://static.pbcdn.in/sme-cdn/images/marketing/time-icon-active.svg) no-repeat #deebff 11px 11px;
+    color: #0065ff;
+    border-radius: 0 50px 50px 0;
+    font-weight: 500
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateTimeSwitch__DWl4s ul li.ExitIntentPopup_activeDate__toV0_ {
+    background: url(https://static.pbcdn.in/sme-cdn/images/marketing/date-icon-active.svg) no-repeat #deebff 11px 11px;
+    color: #0065ff;
+    border-radius: 50px 0 0 50px;
+    font-weight: 500
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateCallBackList__PI_w2 {
+    margin-top: 24px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateCallBackList__PI_w2 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .016em;
+    color: #253858;
+    margin-top: 26px !important
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateCallBackList__PI_w2 ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    justify-content: space-between
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateCallBackList__PI_w2 ul li {
+    width: 112px;
+    height: 40px;
+    background: #fff;
+    box-shadow: 0 6px 16px rgba(52, 105, 203, .16);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #253858;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_dateCallBackList__PI_w2 ul li.ExitIntentPopup_activeDate__toV0_ {
+    border: 1px solid #0065ff;
+    color: #0065ff;
+    font-weight: 500
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_timeCallBackList__gKja6 {
+    margin-top: 24px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_timeCallBackList__gKja6 h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .016em;
+    color: #253858;
+    margin-top: 24px !important
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_timeCallBackList__gKja6 ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 16px;
+    justify-content: space-between
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_timeCallBackList__gKja6 ul li {
+    width: 172px;
+    height: 40px;
+    background: #fff;
+    box-shadow: 0 6px 16px rgba(52, 105, 203, .16);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #253858;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    cursor: pointer
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_ghiPremiumBody__LLgZ_ .ExitIntentPopup_timeCallBackList__gKja6 ul li.ExitIntentPopup_activeTime__as4R5 {
+    border: 1px solid #0065ff;
+    color: #0065ff;
+    font-weight: 500
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_callUsNumber__doWo_ {
+    padding: 16px 24px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_callUsNumber__doWo_ h2 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: .256px;
+    color: #253858;
+    margin: 0 !important
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_callUsNumber__doWo_ .ExitIntentPopup_formfield__W8m6I {
+    position: relative;
+    margin-top: 16px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_callUsNumber__doWo_ .ExitIntentPopup_formfield__W8m6I input {
+    width: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 24px;
+    color: #253858;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #5e6c84;
+    height: 56px;
+    transition: border .3s ease-in
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_callUsNumber__doWo_ .ExitIntentPopup_formfield__W8m6I input:focus+label {
+    font-size: 12px;
+    line-height: 18px;
+    transform: none;
+    top: -10px;
+    color: #253858;
+    letter-spacing: normal;
+    pointer-events: none
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_callUsNumber__doWo_ .ExitIntentPopup_formfield__W8m6I label {
+    position: absolute;
+    font-size: 16px;
+    line-height: 24px;
+    color: #253858;
+    top: 50%;
+    left: 8px;
+    transform: translateY(-50%);
+    transition: all .3s ease-in;
+    background: #fff;
+    padding: 0 8px;
+    font-weight: 400;
+    cursor: auto;
+    pointer-events: none
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_callUsNumber__doWo_ .ExitIntentPopup_infoText__uhtji {
+    border-radius: 100px;
+    background: rgba(255, 240, 179, .6);
+    padding: 4px 12px;
+    color: #de8113;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px;
+    max-width: 290px;
+    margin: 20px auto;
+    text-align: center
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_btnCallbackNext__A2B_R,
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_callUsNumber__doWo_ .ExitIntentPopup_btnCallbackSubmit__opbDe {
+    outline: none;
+    border: none;
+    width: 88%;
+    height: 48px;
+    background: #3965fb;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #fff;
+    margin-top: 16px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 24px;
+    left: 24px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_ghiPremiumScheduleDateTime__rDLx4 .ExitIntentPopup_formFieldError__4akmN {
+    color: #de350b !important;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: inherit;
+    margin: 0
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_callScheduledSuccess__UFxE8 {
+    width: 400px;
+    min-height: 462px;
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    text-align: center;
+    padding: 60px 48px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_callScheduledSuccess__UFxE8 img {
+    width: 110px
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_callScheduledSuccess__UFxE8 h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #253858
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_callScheduledSuccess__UFxE8 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: .014em;
+    margin-top: 8px;
+    color: #253858;
+    margin-bottom: 0
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_callScheduledSuccess__UFxE8 p span {
+    font-weight: 700
+}
+
+.ExitIntentPopup_exitIntent__7_A4N .ExitIntentPopup_ExitIntentPopup__csvW9 .ExitIntentPopup_callScheduledSuccess__UFxE8 .ExitIntentPopup_bthCallbackOk__38eYH {
+    width: 140px;
+    height: 48px;
+    border-radius: 8px;
+    background: #3965fb;
+    margin-top: 32px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+}

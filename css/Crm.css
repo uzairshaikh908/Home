@@ -1,0 +1,885 @@
+body {
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.header {
+    border-bottom: solid #d7dadc 1px;
+    width: 100%;
+    left: 0;
+    background: #fff
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+.footer #toggle {
+    width: 70%
+}
+
+.container-inner-quote {
+    margin: 0 auto;
+    width: 1160px;
+    float: inherit
+}
+
+.crm_cover {
+    display: table;
+    clear: both;
+    width: 1170px;
+    margin: 100px auto 0;
+    min-height: 800px
+}
+
+.crm_cover .leftPart {
+    padding-bottom: 50px;
+    box-shadow: 0 6px 18px rgb(52 105 203 / 10%);
+    border: none;
+    width: 48%;
+    margin-left: 110px;
+    border: solid #fff 1px;
+    min-height: auto;
+    margin-right: 50px;
+    float: left;
+    padding: 25px 70px;
+    border-radius: 12px
+}
+
+.crm_cover .leftPart h2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px
+}
+
+.crm_cover .leftPart h2 span {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: .4
+}
+
+.crm_cover .success_cover h1 {
+    font-size: 38px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    /* color: green; */
+    text-align: center;
+    background: url(../images/check-circle.svg) no-repeat center 0 / 54px;
+    padding: 61px 0 0;
+}
+
+.field input {
+    font-size: 16px;
+    border: 0;
+    border: 1px solid rgb(37 56 88 / 20%);
+    font-family: inherit;
+    -webkit-appearance: none;
+    border-radius: 4px;
+    padding: 13px;
+    font-size: 14px;
+    cursor: text;
+    color: #253858 !important;
+    width: 95.4%;
+    display: table;
+    text-align: left;
+    z-index: 9;
+    background: 0 0;
+    position: relative;
+    font-weight: 500
+}
+
+.field input:focus {
+    outline: 0
+}
+
+.field label {
+    text-transform: normal;
+    display: table;
+    letter-spacing: 0;
+    font-size: 14px;
+    color: #253858;
+    margin-top: 7px
+}
+
+.field input:placeholder-shown+label {
+    cursor: text;
+    position: absolute;
+    top: 18px;
+    left: 12px;
+    color: #abb2be;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    transition: all .2s;
+    touch-action: manipulation
+}
+
+.field input::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit
+}
+
+.field input:focus::-webkit-input-placeholder {
+    opacity: 0
+}
+
+.field input::-moz-placeholder {
+    opacity: 0;
+    transition: inherit
+}
+
+.field input:focus::-moz-placeholder {
+    opacity: 0
+}
+
+.field input:focus+label,
+.field input:not(:placeholder-shown)+label {
+    cursor: pointer;
+    position: absolute;
+    top: -8px;
+    left: 9px;
+    padding: 0 3px;
+    font-size: 12px;
+    background: #fff;
+    width: auto;
+    display: table;
+    width: auto;
+    z-index: 10;
+    color: rgb(37 56 88 / 50%);
+    margin: 0;
+    z-index: 9;
+    letter-spacing: .3px
+}
+
+.field {
+    position: relative;
+    margin-bottom: 18px;
+    display: table;
+    width: 100%
+}
+
+.field .error_field {
+    font-size: 11px;
+    color: #e56b6b
+}
+
+.crm_cover input[type=text] {
+    border: solid 1px rgb(37 56 88 / 26%);
+    box-shadow: 0 3px 10px rgb(52 105 203 / 4%);
+    height: 58px;
+    padding: 16px 14px 12px;
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #253858;
+    width: 100%;
+    border-radius: 8px
+}
+
+.crm_cover button[type=button] {
+    cursor: pointer;
+    background: #0065ff;
+    width: 100%;
+    border: none;
+    margin: 35px auto 20px;
+    display: table;
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: 500;
+    padding-right: 30px;
+    min-height: 54px;
+    position: relative;
+    text-align: center
+}
+
+.whybuy-Banner {
+    float: right;
+    position: relative;
+    border-radius: 8px;
+    background: linear-gradient(290deg, #f4d8cd -195.22%, #fff 54.05%);
+    width: 30%;
+    height: auto;
+    border: solid #dee9ff 1px;
+    transition: all .3s cubic-bezier(0, 0, .2, 1);
+    padding: 15px 0 0;
+    margin: 0 85px 30px 0;
+    box-shadow: 0 2px 12px rgba(198, 210, 231, .46)
+}
+
+.whybuy-Banner h3 {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1px 10px 11px 22px;
+    margin: 0
+}
+
+.whybuy-Banner ul {
+    margin: 0 0 0 22px;
+    padding: 0
+}
+
+.whybuy-Banner ul li {
+    font-size: 12px;
+    font-weight: 400;
+    list-style-type: none;
+    margin-bottom: 9px;
+    display: table;
+    width: 92%;
+    color: #253858;
+    border-top: dashed #e5e8f1 1px;
+    padding-top: 1px
+}
+
+.whybuy-Banner ul li span {
+    text-align: left;
+    float: left;
+    margin: 6px 0 0 0;
+    width: 80%;
+    color: rgb(41 42 44/90%)
+}
+
+.whybuy-Banner ul li:last-child span {
+    margin-top: 10px;
+    margin-bottom: 7px
+}
+
+.whybuy-Banner ul li b {
+    font-weight: 500
+}
+
+.whybuy-Banner ul li img {
+    position: relative;
+    top: 8px;
+    width: 20px;
+    float: left;
+    margin-right: 16px;
+    margin-top: 2px
+}
+
+.whybuy-Banner ul li:first-child img {
+    margin: 2px 15px 0 -2px;
+    width: 22px
+}
+
+.whybuy-Banner .daily-booking b {
+    color: #6cc2bc
+}
+
+.whybuy-Banner .daily-booking {
+    padding: 12px 20px 14px 25px;
+    border-top: solid #f6e6e3 1px;
+    background: #fff;
+    border-radius: 0 0 8px 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #353b57
+}
+
+.express-outer-cover .expressRenewal-popUp .expressRight {
+    width: 31% !important
+}
+
+.btn-price .loader {
+    font-size: 10px;
+    margin: 0 auto;
+    text-indent: -9999em;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #fff;
+    background: -moz-linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -webkit-linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -o-linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -ms-linear-gradient(left, #fff 10%, rgba(255, 255, 255, 0) 42%);
+    background: linear-gradient(to right, #fff 10%, rgba(255, 255, 255, 0) 42%);
+    position: relative;
+    -webkit-animation: load3 1.4s infinite linear;
+    animation: load3 1.4s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0)
+}
+
+@-webkit-keyframes load3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.btn-price .loader:before {
+    width: 50%;
+    height: 50%;
+    background: #fff;
+    border-radius: 100% 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: ''
+}
+
+.btn-price .loader:after {
+    background: #0265fc;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    content: '';
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+.containerInner {
+    width: 100%
+}
+
+.container-fluid {
+    padding: 0
+}
+
+.addAsset {
+    margin: 10px auto 0;
+    width: 1160px;
+    display: table
+}
+
+.addAsset .rightBg {
+    width: 38%;
+    background: #f9fafc;
+    position: absolute;
+    right: 0;
+    top: 110px;
+    height: 600px;
+    border: dashed #c4c9d1 1px;
+    border-radius: 8px 0 0 8px
+}
+
+.addAsset .leftPart {
+    display: inline-block;
+    width: 300px;
+    background: #f2f7ff;
+    vertical-align: top;
+    height: 100%;
+    position: fixed
+}
+
+.addAsset .leftPart .pblogo {
+    margin: 15px 25px 15px 70px
+}
+
+.addAsset .bikeSection {
+    width: 40%;
+    padding-top: 0;
+    float: left;
+    padding: 10px 10px 0 0
+}
+
+.addAsset .bikeSection .bikeIcon {
+    width: 38px;
+    height: 38px;
+    float: left;
+    border-radius: 8px;
+    margin: 0px 0 0 16px;
+    background: #fff url(https://twowheelerqa.policybazaar.com/images/bikeIcon.svg) no-repeat center 4px
+}
+
+.addAsset .bikeSection .bikeDetail {
+    float: left;
+    margin: 7px 0 0px 8px;
+    line-height: 22px
+}
+
+.addAsset .bikeSection .bikeDetail h4 {
+    font-size: 14px;
+    color: #253858;
+    font-weight: 500;
+    line-height: 18px;
+    margin: 0;
+    width: 205px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.addAsset .bikeSection .bikeDetail h4 span {
+    display: block;
+    font-size: 10px;
+    color: #69768c;
+    font-weight: 400
+}
+
+.addAsset .leftSection {
+    display: inline-block;
+    width: 700px;
+    margin: 0 50px 0 0
+}
+
+.addAsset .leftSection .vehicle-info {
+    box-shadow: 0 4px 9px rgb(52 105 203 / 16%);
+    padding: 0 0 20px 0;
+    border-radius: 8px;
+    border: solid #e2eaf7 1px;
+    background: #f5f9ff;
+    position: relative
+}
+
+.addAsset .leftSection .save-detail {
+    background: url(../images/thanksIcon.png) no-repeat 0 0/46px;
+    width: auto;
+    margin: 0 auto;
+    display: table;
+    padding: 0 0 10px 56px;
+    line-height: 40px;
+    color: #2fbc46;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px
+}
+
+.addAsset .rightSection {
+    width: 380px;
+    background: #f9fafc;
+    display: inline-block;
+    height: 100px;
+    min-height: 400px;
+    border-radius: 8px;
+    float: left;
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    left: 0
+}
+
+.addAsset .vehicle-owner {
+    background: #fff;
+    padding: 0;
+    border-radius: 8px 8px 0 0;
+    display: table;
+    width: 100%
+}
+
+.addAsset .vehicle-info ul {
+    width: 100%;
+    display: table;
+    margin: 0 0 30px 0;
+    padding: 5px
+}
+
+.addAsset .vehicle-owner h3 {
+    float: left;
+    font-size: 12px;
+    color: rgb(37 56 88 / 60%);
+    margin: 18px 0 0 20px;
+    font-weight: 400;
+    width: 55%;
+    background: url(../images/office-man.png) no-repeat 0 0 / 18px;
+    padding-left: 24px;
+}
+
+.addAsset .vehicle-owner h3 b {
+    color: #253858;
+    font-weight: 500;
+    font-size: 14px
+}
+
+.addAsset .leftSection h1 {
+    font-size: 18px;
+    padding: 10px 0 5px 20px;
+    font-weight: 500
+}
+
+.addAsset .leftSection .vehicle-info ul li {
+    width: 22%;
+    background: #fff;
+    border-radius: 8px;
+    float: left;
+    margin-left: 15px;
+    padding: 15px 4px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+    color: rgb(37 56 88 / 60%);
+    border: solid #e8edf6 1px;
+    position: relative;
+    list-style-type: none
+}
+
+.addAsset .leftSection .vehicle-info ul li b {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(37 56 88 / 100%)
+}
+
+.addAsset .leftSection .vehicle-info ul li .expiry {
+    position: absolute;
+    width: 90%;
+    background: #ffd9d9;
+    left: 7px;
+    bottom: -24px;
+    font-size: 12px;
+    color: #ab4a4a;
+    border-radius: 0 0 8px 8px
+}
+
+.addAsset .tab__content .list-group li {
+    display: inline-block;
+    width: 49%;
+    margin-bottom: 14px;
+    line-height: 18px
+}
+
+.addAsset .tab__content .list-group li label {
+    font-weight: 400;
+    color: rgb(37 56 88 / 50%);
+    padding: 0;
+    font-size: 12px;
+    padding-bottom: 4px
+}
+
+.addAsset .tab__content .list-group li span {
+    display: table;
+    width: 94%;
+    color: #253858;
+    font-weight: 500 !important;
+    font-size: 14px;
+    text-transform: capitalize
+}
+
+.tab input {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
+.tab__content {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.35s;
+}
+
+.tab input:checked~.tab__content {
+    max-height: 25rem;
+}
+
+.accordion {
+    border: solid #F3F3F3 1px;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    width: 680px;
+    margin: -9px 0 0 9px;
+    padding: 24px 0 10px 0;
+    box-shadow: 0px 3px 9px rgb(37 55 88 / 4%);
+}
+
+.tab__label,
+.tab__close {
+    display: flex;
+    color: #253758;
+    background: var(--theme);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.tab__label {
+    justify-content: space-between;
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+.tab__label::after {
+    content: "";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transform: rotate(90deg);
+    transition: all 0.35s;
+    background: url(../images/arrow-angle-right.svg) no-repeat right 4px center / 8px;
+}
+
+.tab input:checked+.tab__label::after {
+    transform: rotate(270deg);
+}
+
+.tab__content p {
+    margin: 0;
+    padding: 1rem;
+}
+
+.tab__content .list-group {
+    margin: 0;
+    padding: 10px 25px;
+}
+
+.addAsset .quoteslogo {
+    margin: 30px 0 0 30px;
+    padding: 0
+}
+
+.addAsset .quoteslogo li {
+    cursor: pointer;
+    box-shadow: 0 6px 16px rgb(37 56 88 / 16%);
+    display: inline-block;
+    width: 134px;
+    padding: 10px 40px 10px 10px;
+    margin: 0 40px 25px 0;
+    border-radius: 6px;
+    background: #fff url(../images/arrow-angle-right.svg) no-repeat right 14px center
+}
+
+.addAsset .quoteslogo li img {
+    width: 92px
+}
+
+.addAsset .rightSection .expiry-date {
+    background: linear-gradient(269deg, #ffffff00 .22%, #ffd8da 50.05%);
+    color: #ab4a4a;
+    padding: 3px 30px;
+    border-radius: 8px 0 0 0;
+    font-size: 14px;
+    position: relative;
+    top: -1px;
+    left: -1px
+}
+
+.addAsset .rightSection h2 {
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 30px;
+    width: 82%;
+}
+
+.addAsset .rightSection h2 b {
+    font-size: 20px;
+    color: #615dff;
+    font-weight: 500
+}
+
+.addAsset .rightSection .line {
+    height: 2px;
+    background: linear-gradient(269deg, #ffffff00 69.22%, #e4e4e4 101.05%);
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.addAsset .rightSection .plan-srat {
+    padding: 0 0 0 30px;
+    color: #605cfc;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.addAsset .rightSection .plan-srat em {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400
+}
+
+.addAsset .rightSection .plan-srat b {
+    font-size: 16px;
+    font-weight: 500
+}
+
+.addAsset .btn_price {
+    font-weight: 500;
+    background: #fff;
+    border-radius: 8px;
+    margin: 0 0 0 30px;
+    display: table;
+    color: #0065ff;
+    font-size: 16px;
+    border: solid #0065ff 1px;
+    width: 80%;
+    padding: 12px
+}
+
+.addAsset .btnAdd {
+    margin: 18px auto;
+    display: table;
+    font-weight: 400;
+    background: #fff;
+    border-radius: 8px;
+    display: table;
+    color: #0065FF;
+    font-size: 14px;
+    border: none;
+    padding: 12px;
+    text-decoration: underline;
+}
+
+.Quotespageloading {
+    padding: 15px;
+}
+
+.loadingtext {
+    z-index: 9999;
+    top: 45%
+}
+
+.loadingtext p {
+    top: 54%;
+    position: absolute;
+    width: 100%;
+    padding: 0 15%;
+    line-height: 32px;
+    font-size: 12px;
+    letter-spacing: 0;
+    text-indent: 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.loadingtext p span {
+    display: block;
+    font-size: 12px;
+    color: rgb(0 0 0 / 60%);
+    font-weight: 400;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+    .container-fluid {
+        width: 100%;
+    }
+    .container-inner-quote {
+        width: 100%;
+    }
+    .crm_cover {
+        width: 90%;
+        display: table;
+        min-height: auto;
+        margin: 70px auto;
+    }
+    .crm_cover .leftPart {
+        width: 100%;
+        margin: 0;
+        padding: 0px 20px 0;
+        margin: 20px auto;
+    }
+    .whybuy-Banner {
+        width: 100%;
+        margin: 0;
+    }
+    .crm_cover .leftPart h2 {
+        margin-bottom: 25px;
+    }
+    .footer #toggle {
+        width: 85%;
+        margin-bottom: 20px;
+    }
+    .footer ul {
+        margin: 0;
+        padding: 0;
+    }
+    .field input:placeholder-shown+label {
+        font-size: 14px;
+    }
+    .addAsset,
+    .addAsset .leftPart,
+    .addAsset .leftSection,
+    .addAsset .rightBg,
+    .addAsset .accordion,
+    .addAsset .rightSection {
+        width: 100%;
+    }
+    .addAsset .rightBg {
+        width: 100%;
+        position: inherit;
+        border-radius: 8px;
+        height: auto;
+        display: table;
+    }
+    .addAsset .rightSection {
+        min-height: auto;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .addAsset .vehicle-owner h3 {
+        width: 90%;
+        margin-left: 15px;
+        padding-left: 30px;
+    }
+    .addAsset .bikeSection {
+        width: 100%;
+    }
+    .addAsset .bikeSection .bikeIcon {
+        margin-left: 5px;
+    }
+    .addAsset .bikeSection {
+        width: 100%;
+    }
+    .addAsset .bikeSection .bikeDetail {
+        margin-left: 2px;
+        width: 85%;
+        margin-bottom: 10px;
+    }
+    .addAsset .leftSection .vehicle-info ul li {
+        width: 43%;
+        margin-bottom: 35px;
+    }
+    .addAsset .vehicle-info ul {
+        margin: 0;
+    }
+    .addAsset .leftSection .vehicle-info {
+        padding: 0;
+    }
+    .addAsset .accordion {
+        width: 94%;
+    }
+    .tab__content .list-group {
+        padding: 10px 15px;
+    }
+    .tab__label {
+        padding: 10px 15px;
+    }
+    .addAsset .tab__content .list-group li {
+        width: 100%;
+    }
+    .addAsset .rightSection .expiry-date {
+        background: #ffd8da;
+        padding: 5px 15px;
+        border-radius: 6px;
+        font-size: 14px;
+        position: relative;
+        top: 2px;
+        left: 2px;
+        width: 99%;
+    }
+    .addAsset .quoteslogo {
+        margin: 30px 0 0 0;
+        text-align: center;
+    }
+    .addAsset .quoteslogo li {
+        margin: 0 22px 25px 22px;
+    }
+    .addAsset .btn_price {
+        margin: 0 auto 0;
+        width: 90%;
+    }
+    .addAsset .leftSection .save-detail {
+        background-size: 32px;
+        background-position: 0 6px;
+        font-size: 14px;
+        padding: 0 0 10px 40px;
+    }
+    .addAsset .vehicle-owner {
+        width: 99%;
+        margin: 0.5%;
+    }
+    .addAsset .leftSection h1 {
+        font-size: 16px;
+    }
+    .addAsset .bikeSection .bikeDetail h4 {
+        width: 100%;
+        white-space: inherit;
+        overflow: inherit;
+        text-overflow: inherit;
+    }
+}

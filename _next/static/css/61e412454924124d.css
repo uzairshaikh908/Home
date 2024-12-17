@@ -1,0 +1,130 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    background: #f4f6f8;
+    font-weight: lighter
+}
+
+*,
+body {
+    margin: 0;
+    padding: 0
+}
+
+* {
+    box-sizing: border-box
+}
+
+body::-webkit-scrollbar {
+    display: none
+}
+
+.hide {
+    display: none
+}
+
+@media(min-width:1024px) {
+    .mobile {
+        display: none !important
+    }
+}
+
+@media only screen and (min-width:320px)and (max-width:1024px) {
+    .desktop {
+        display: none !important
+    }
+}
+
+label.Mui-error,
+label.Mui-focused {
+    color: #5e6c84 !important
+}
+
+.prequote-field .MuiInputBase-root {
+    border-radius: 8px;
+    height: 56px;
+    overflow: hidden
+}
+
+.prequote-field.v2 {
+    width: 100%
+}
+
+.prequote-field.v2 .MuiInputBase-root {
+    background-color: #fff
+}
+
+.prequote-field.v2 label {
+    background: #fff !important;
+    border-radius: 8px;
+    padding: 0 5px;
+    margin-left: -3px
+}
+
+.prequote-field .MuiInputBase-input:focus {
+    outline: none
+}
+
+.formField {
+    width: 100%
+}
+
+.formField label {
+    font-size: 16px;
+    cursor: text;
+    z-index: 1;
+    background: #fff;
+    padding: 0 4px;
+    color: #5e6c84 !important;
+    border-radius: 8px
+}
+
+.formField>div {
+    margin: 0 !important;
+    border: 1px solid #5e6c84;
+    border-radius: 8px;
+    height: 56px;
+    background: #fff
+}
+
+.formField>div.Mui-error {
+    border: 1px solid #d32f2f
+}
+
+.formField>div fieldset {
+    border: none
+}
+
+.inWord {
+    font-size: 13px;
+    margin: 5px 0 0 16px;
+    line-height: 16px;
+    color: #253858;
+    position: relative;
+    font-weight: 400
+}
+
+.MuiFormHelperText-root.Mui-error,
+.error {
+    color: #e53935 !important;
+    font-size: 12px;
+    font-weight: 400
+}
+
+.MuiFormHelperText-root.Mui-error.error-m,
+.error.error-m {
+    margin: 3px 0 0 8px
+}
+
+@media only screen and (min-width:320px)and (max-width:1024px) {
+    .MuiFormHelperText-root.Mui-error,
+    .error {
+        font-size: 9px
+    }
+}
+
+.error {
+    color: #e53935;
+    font-size: 12px;
+    margin: 5px 0 0 15px;
+    font-weight: 400
+}

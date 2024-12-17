@@ -1,0 +1,751 @@
+body {
+    font-family: "Roboto", "SF Pro Display", sans-serif !important;
+}
+
+body,
+#Quotes,
+#Quotes .left-part,
+#Quotes .right-part,
+.container-fluid,
+.summary.evenNum,
+.main-container.quote.expQuote,
+.main-container.quote.expQuote .newheader,
+.main-container.quote.expQuote .newQuote {
+    background: #ffffff !important;
+}
+
+p,
+img,
+form,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+div,
+dl {
+    font-family: "Roboto", "SF Pro Display", sans-serif !important;
+}
+
+h1,
+h5,
+h3,
+h4,
+.header_mobile .select_plan,
+.radioBox .option span,
+.radioBox input[type="radio"]:checked:checked~.option-1 span,
+.radioBox input[type="radio"]:checked:checked~.option-2 span {
+    font-weight: 400 !important;
+}
+
+.newLanding .MainHome h1 {
+    font-weight: 300 !important;
+}
+
+.summary.evenNum .Total-amount a.payNow,
+button,
+.buy-now-btn,
+.vehicle-detail .mdl-button,
+.vehicle-detail .mdl-button .loader:after,
+.KYC-popup button[type="button"],
+.kyc-container .btn-update,
+.express-outer-cover .expressRenewal-popUp .quoteslogo li span,
+.SAOD-Proposal .btn-primary .loader:after,
+.SAOD-Proposal .btnBlue .loader:after,
+.SAOD-Proposal .btn-primary .loader:after,
+.SAOD-Proposal .btnBlue .loader:after,
+.expressRenewal-popUp .btnBlue,
+.nominee-popup button,
+.expressRenewal-summary .btnBlue,
+.progress-bar,
+.btn-update .loader:after,
+.review-pay .review-pay-right .btn-submit.securely:after {
+    background-color: #002F34 !important;
+}
+
+.btn-primary,
+.popuprccontent .btnUpload a,
+.proposal .evenNum .progressbar li.active:before,
+.expressRenewal-popUp .commercial-vehicle .othercj_links .btnBlue {
+    background-color: #002F34 !important;
+    border-color: #002F34;
+}
+
+.newLanding .MainHome ul.heading li span,
+.cant-find,
+#searchOthers,
+.plan_tabs nav li.tab-current a,
+.plan_tabs nav a,
+.lltp-card3 .all-plans,
+.is-visible .cd-popup-container.error_popup .button-row .errorbutton:nth-child(2) {
+    color: #002F34 !important
+}
+
+.plan_tabs nav a {
+    text-decoration: none;
+}
+
+.irdai-text a,
+.vehicle-detail .t-c span,
+.SAOD-Proposal .breakupTxt p,
+a,
+a:focus,
+a:hover,
+.express-summary .express-summary-right .breakupTxt p,
+.sum-renew b {
+    color: #002F34 !important;
+    text-decoration: underline;
+}
+
+.kyc-container .id-proof p,
+.card.sortBy input:checked+span+span,
+.proposal .evenNum .progressbar li.active,
+.formField .editmobile,
+.expressRenewal-popUp .field .radioBox input[type="radio"]:checked:checked~.option-1 span {
+    color: #002F34;
+}
+
+.header .pb-logo {
+    pointer-events: none;
+}
+
+.card.addons .clear {
+    background: none !important;
+    color: #002f34;
+    border: solid #002f34 1px;
+    width: 40%;
+    border-radius: 8px;
+    height: 48px;
+}
+
+.vehicle-detail .mdl-button em {
+    background-color: transparent;
+}
+
+.thankyoucpa button,
+.KYC-popup .leftPart p,
+.editbtn {
+    background-color: #fff !important;
+    color: #002f34;
+    border-color: #002f34;
+}
+
+.expressRenewal-popUp .commercial-vehicle .othercj_links .btnWhite {
+    color: #002f34;
+    border: solid #002f34 1px;
+    width: 85%;
+    text-decoration: none;
+}
+
+.KYC-popup .leftPart p {
+    font-size: 14px;
+}
+
+.plan_type .plan_list li,
+.PopUpsection ul li,
+.odsection li,
+.main-container.quote.expQuote .modal-box.plan_type .plan_list li {
+    border-color: #002f34;
+    filter: grayscale(1);
+}
+
+.plan_type .plan_list li.active,
+.main-container.quote.expQuote .modal-box.plan_type .plan_list li.active {
+    background-color: #002f34;
+    color: #000;
+    border-radius: 5px;
+    border: solid #002f34 1px;
+    color: #fff;
+}
+
+input[type=range] {
+    color: #002f34;
+}
+
+.proposal .evenNum .progressbar li {
+    color: #2d3a5282;
+}
+
+.active {
+    border: solid #002f34 1px;
+}
+
+.owl-theme .owl-controls .owl-page.active {
+    border: none;
+}
+
+/******Start Radio Button*********/
+
+.radioBox input[type="radio"]:checked:checked~.option-1 .dot,
+.radioBox input[type="radio"]:checked:checked~.option-2 .dot,
+.owl-theme .owl-controls .owl-page span,
+.planType .innerRadio .dot,
+.planType .innerRadio,
+.proposal3-popup .comp-table td input[type=radio]:checked~.check,
+.idv-values input[type=radio]:checked~.check,
+.idv-values li .check {
+    border: #002f34 solid 1px;
+}
+
+.radioBox input[type="radio"]:checked:checked~.option-1 span,
+.radioBox input[type="radio"]:checked:checked~.option-2 span {
+    color: #002f34;
+}
+
+.radioBox input[type="radio"]:checked:checked~.option-1 .dot::before,
+.radioBox input[type="radio"]:checked:checked~.option-2 .dot::before,
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span,
+.proposal3-popup .comp-table td input[type=radio]:checked~.check::before,
+.idv-values input[type=radio]:checked~.check::before {
+    background: #012e34;
+}
+
+/******End Radio Button*********/
+
+.summary.evenNum .detailSection .nomineeDetail,
+.summary.evenNum .Total-amount a.payNow {
+    text-decoration: none;
+}
+
+/******Back Button*********/
+
+.summary.evenNum .backBtn,
+.proposal .backBtn,
+.stepper-header .backBtn {
+    background: #F2F4F5;
+}
+
+.SAOD-Proposal header .backBtn img {
+    width: 8px;
+}
+
+.idv-values input[type="number"] {
+    border-bottom: solid #012e34 1px;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #012e34;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #012e34;
+    cursor: pointer;
+}
+
+.tab-box.no_icon .plan-type-dropdown div.menu-header,
+.tab-box.no_icon .ncb-edit-section div.menu-header {
+    padding-right: 22px;
+}
+
+.planType .innerRadio.active {
+    border: solid #002f34 1px;
+    background: #F2F4F5;
+}
+
+.express-outer-cover .expressRenewal-popUp .quoteslogo li .idv span {
+    background-color: transparent !important;
+}
+
+.expressRenewal-popUp.review-pay .inputForm {
+    margin-top: 10px;
+}
+
+.expirytypeheading span,
+.covertypeheading span {
+    margin-top: 6px;
+}
+
+.formField .field h6 {
+    width: 100%;
+}
+
+.summary.evenNum .detailSection .nomineeDetail,
+.summary.evenNum .Total-amount a.payNow span {
+    color: #fff;
+}
+
+.SAOD-Proposal .react-datepicker__year-read-view--down-arrow,
+.SAOD-Proposal .react-datepicker__month-read-view--down-arrow,
+.SAOD-Proposal .react-datepicker__month-year-read-view--down-arrow,
+.SAOD-Proposal .react-datepicker__navigation-icon::before {
+    border-color: #fff;
+}
+
+.Quotespageloading,
+.expressRenewal-popUp .btnBlue .loadingtext .Quotespageloading {
+    border: 4px solid #b9c9cb;
+    border-right-color: #ffffff;
+}
+
+.expressRenewal-popUp .btn_fixed .btnBlue .loadingtext:after {
+    background: none;
+}
+
+.proposal3-popup .comp-btn-proceed,
+.modal-box .btn-green {
+    background: #012e34 !important;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.premiumChanged .btnBlue em {
+    background-color: transparent;
+}
+
+.premiumChanged .premiumVal {
+    border: dashed 1px #002f345e;
+    background: #ffffff;
+}
+
+.premiumChanged .changePlan {
+    border-top: solid 2px #002f342e;
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay {
+    display: table;
+}
+
+.expressRenewal-popUp img.err_img_exp {
+    margin-top: 70px;
+}
+
+.expressRenewal-popUp .exp_err_msg b {
+    display: inline-block;
+}
+
+.expressRenewal-popUp .commercial-vehicle .btnWhite+.btnWhite {
+    background: #012e34;
+}
+
+.expressRenewal-popUp .commercial-vehicle .btnWhite+.btnBlue {
+    color: #012e34;
+    border: solid #012e34 1px;
+    background-color: #fff !important;
+}
+
+.expressRenewal-popUp .commercial-vehicle .btnWhite,
+.expressRenewal-popUp .exp_err_msg span,
+.try-again .button p,
+.premiumChanged .premiumVal .updated-premium li span {
+    color: #012e34;
+}
+
+.try-again img {
+    filter: grayscale(1);
+}
+
+.try-again .button {
+    background: none;
+    border: solid #012e34 1px;
+    color: #012e34;
+}
+
+.proposal3-popup .comp-table td input[type=radio]:checked~label {
+    color: #012e34 !important;
+    border: solid #012e34 1px;
+    box-shadow: none;
+    background: #fff;
+}
+
+.proposal3-popup .comp-table td label {
+    box-shadow: none;
+    border: solid #012e34 1px;
+}
+
+.lltp-card3 h4 {
+    background: #ffce32b3;
+    color: #002f34;
+    padding-left: 10px;
+}
+
+.lltp-card3 {
+    background: #F8F9FA;
+}
+
+.lltp-card3 .all-plans.close:before {
+    display: none;
+}
+
+.lltp-card3 .all-plans.close {
+    display: table;
+    width: auto;
+    text-indent: 0;
+    margin: 10px auto 30px !important;
+}
+
+.lltp-card3 .all-plans {
+    position: relative;
+    z-index: 0;
+}
+
+.express-outer-cover .expressRenewal-popUp .gst-exc span b {
+    color: #FFCE32;
+}
+
+.expressRenewal-popUp .stepper-header,
+.stepper-header .bike-detail,
+.footer {
+    background: #ffffff;
+}
+
+.quote-tile-actual .quote-tile-inner,
+.quote-tile-dummy {
+    box-shadow: 0px 2px 12px #3469CB29;
+}
+
+.sort-by-btn {
+    background: url(../images/sort-icon-mob.svg) no-repeat 18px 11px, linear-gradient(19deg, #bec7c8, #D8DFE0);
+    border: solid #D8DFE0 1px;
+    box-shadow: 0px 2px 9px #00000038;
+}
+
+.ChassisNumberpopup a {
+    background-color: #002F34;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.ChassisNumberpopup a+a {
+    color: #002f34 !important;
+    text-decoration: underline;
+}
+
+.discount-applied {
+    background: #ffebaa;
+    border-bottom: solid #FFCE32 1px;
+}
+
+.discount-applied .discountTxt {
+    color: #002f34;
+}
+
+.newLanding .MainHome h4 b,
+.newLanding .MainHome h4 sup,
+.lltp-card3 h4 b {
+    color: #002f34;
+}
+
+.newLanding .MainHome h4 {
+    border-image: linear-gradient(to right, #002f345e -20%, white 92%);
+}
+
+.express-outer-cover .quoteslogo li.highlighted .highlighted_text {
+    background: url(../images/instant-icon.svg) no-repeat 10px 3px, linear-gradient(324deg, #7F9799 -12.22%, #7F9799 80.05%);
+}
+
+.express-outer-cover .quoteslogo li.highlighted {
+    background: linear-gradient(white, white) padding-box, linear-gradient(to right, #7f9798, #7f9899) border-box;
+}
+
+.SAOD-Proposal .vehicle-detail {
+    background: none;
+}
+
+.close {
+    position: absolute;
+    width: 22px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    top: 12px;
+    right: 16px;
+    cursor: pointer;
+    overflow: hidden;
+    text-indent: -100px;
+    margin: 5px 0 0 0 !important;
+    opacity: 0.8;
+    z-index: 999;
+}
+
+.close::before,
+.close::after {
+    content: "";
+    width: 2px;
+    height: 22px;
+    top: -1px;
+    right: 10px;
+    background-color: #002F34;
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.close::after {
+    transform: rotate(-45deg);
+}
+
+.close::after {
+    transform: rotate(-45deg);
+}
+
+.expQuote .close:after {
+    left: unset;
+}
+
+.is-visible .cd-popup-container.error_popup .button-row .errorbutton:nth-child(2) {
+    background: #012e34;
+    color: #fff !important;
+}
+
+.is-visible .cd-popup-container.error_popup .button-row {
+    margin: 5px auto 0;
+}
+
+.expressRenewal-summary .welcome-box h2,
+.rightSection .netPremium {
+    background: #F2F4F5;
+}
+
+.expressRenewal-summary {
+    box-shadow: none;
+    border: solid #F2F4F5 1px;
+}
+
+.expressRenewal-summary .welcome-box ul li p.active {
+    border: solid #002f34 1px;
+    background: #ffffff;
+    color: #002f34;
+}
+
+.rightSection {
+    box-shadow: 0px 2px 8px 0 rgb(0 47 52 / 12%);
+}
+
+.expressRenewal-popUp .cpa_cover .corona-kavach {
+    background: #FFF6D9;
+}
+
+.model_cover {
+    bottom: 0;
+    left: 0;
+    transform: translate(0%, 0%);
+    width: 100%;
+    border-radius: 32px 32px 0 0;
+    bottom: 0;
+    top: unset;
+}
+
+.policy-exist {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.policy-exist a {
+    border: solid #002f34 1px;
+    background: #ffffff;
+    color: #002f34;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.policy-exist a.active {
+    border: solid #002f34 1px;
+    background: #002f34;
+    color: #fff;
+}
+
+.model_cover .btn-green {
+    border: none;
+}
+
+.expressRenewal-summary select,
+.expressRenewal-summary ul li label {
+    font-weight: 400 !important;
+}
+
+.expressRenewal-summary .loader_proposal {
+    background: linear-gradient(to right, #002F34 10%, rgba(255, 255, 255, 0) 42%);
+}
+
+.expressRenewal-summary .loader_proposal:before {
+    background: #002F34;
+}
+
+.popuprccontent .uploadbutton .btnUpload a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.thankyou .container-inner-quote {
+    width: 100%;
+}
+
+.thankyou .header .pb-logo {
+    margin-left: -10px !important;
+}
+
+.thankyou .close {
+    right: 0;
+}
+
+.summary.evenNum .premiumContainer .premium-breakup,
+.proposal .evenNum .progressbar {
+    background: #F8F9FA;
+    border: none;
+}
+
+.summary.evenNum .premiumContainer .premium-breakup .total-amount b,
+.summary.evenNum .premiumContainer .premium-breakup .total-amount b,
+.retry-ckyc {
+    color: #002f34;
+}
+
+.proposal-sum-cover .downLink {
+    background: #002F34;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.thankyoucpa li {
+    width: 97px !important;
+}
+
+.policyExpire-TP:before,
+.policyExpire-TP:after {
+    display: none;
+}
+
+.owl-carousel.owl-drag .owl-item {
+    border: none;
+}
+
+.owl-theme .owl-dots .owl-dot {
+    background-color: #fff !important;
+}
+
+.carouselBox button {
+    border: solid #002f34 1px;
+    color: #ffffff;
+}
+
+.carouselBox button em {
+    border: solid #fff 1px;
+    border-left: 0;
+    border-top: 0;
+}
+
+.thanks-msg {
+    margin-top: 60px !important;
+}
+
+.thankyou .container-inner {
+    padding: 0 0 25px;
+}
+
+.policy-detail {
+    box-shadow: none;
+}
+
+.main-container.quote.expQuote {
+    border: none;
+}
+
+.main-container.quote.expQuote .tabs nav a {
+    text-decoration: none;
+}
+
+.main-container.quote.expQuote .tabs nav {
+    background: #F2F4F5;
+}
+
+.main-container.quote.expQuote .tabs nav li.tab-current {
+    box-shadow: 0px 2px 8px 0px rgb(0 47 52 / 21%);
+}
+
+.main-container.quote.expQuote .try-again .button {
+    border: none;
+}
+
+.main-container.quote.expQuote .try-again .button a {
+    border: solid 1px #012e34;
+    text-decoration: none;
+}
+
+.main-container.quote.expQuote .plan-type-dropdown.plan_type_only {
+    filter: grayscale(1);
+}
+
+.renewal_text {
+    background: #C8F8F6;
+}
+
+.renewal_text span,
+.idv-values input[type=radio]:checked~label {
+    color: #002f34;
+}
+
+.vehicleBox,
+.quote-title-headingtext .quotes_loading {
+    filter: grayscale(1);
+}
+
+.vehicleBox li .step1,
+.vehicleBox li .step2,
+.vehicleBox li .step3 {
+    background-color: #002f34;
+}
+
+.express-outer-cover .Quotespageloading {
+    border: 4px solid #D8DFE0;
+    border-right-color: #7F9799;
+}
+
+.review-pay .review-pay-right .total-amount b,
+.SAOD-Proposal .total-amount b,
+.express-summary .express-summary-left .total-amount b {
+    font-size: 18px;
+    color: #002f34;
+    font-weight: 500;
+}
+
+.saod_postpay .irda-text,
+.expressRenewal-summary .irda-text {
+    background-color: #FFF6D9;
+}
+
+.proposal .header {
+    display: none;
+}
+
+.overlay-popup.prequote .close {
+    display: none;
+}
+
+.quotestionfield .close {
+    z-index: 99999;
+}
+
+.overlay-popup.prequote {
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+.expressRenewal-popUp .field .radioBox input[type="radio"]:checked:checked~.option-1 .dot {
+    border: #002f34 solid 1px;
+}
+
+.expressRenewal-popUp .field .radioBox input[type="radio"]:checked:checked~.option-1 .dot::before {
+    background: #012e34;
+}
+
+.expressRenewal-popUp .planType.field .radioBox .innerRadio.active {
+    background-color: #012e3412;
+}
+
+.expressRenewal-popUp .planType.field .radioBox input[type="radio"]:checked:checked~.option-1 {
+    background-color: transparent;
+}

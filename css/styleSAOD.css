@@ -1,0 +1,4224 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: #253858;
+    overflow-x: hidden;
+    position: relative;
+    overflow-y: scroll;
+    background: #F2F7FF;
+}
+
+body * {
+    outline: none !important;
+}
+
+a {
+    color: #1596fe;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+p,
+img,
+form,
+input,
+select,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol,
+div,
+dl {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+a,
+a:focus,
+a:hover {
+    color: #2387f7;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.fLeft {
+    float: left;
+}
+
+.fRight {
+    float: right;
+}
+
+.tLight {
+    text-align: left !important;
+}
+
+.or {
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+}
+
+.containerInner {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.toll-free {}
+
+a.tollFree {
+    color: #808080;
+}
+
+a:hover.tollFree {
+    color: #808080;
+}
+
+.btn-green {
+    color: #36b37e;
+    border: solid #3b885b 1px;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 10px;
+    margin: 0 3px;
+    width: 40%;
+    font-size: 14px;
+    background: #3b885b;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    border-bottom: solid #e8e8e8 1px;
+}
+
+.container {
+    width: 1100px;
+    margin: 25px auto;
+    display: table;
+    min-height: 670px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    overflow: hidden;
+    background: #e6e5e5;
+    display: table;
+    margin: 10px auto;
+}
+
+select {
+    font-size: 16px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid rgb(37 56 88 / 20%);
+    font-family: inherit;
+    -webkit-appearance: none;
+    border-radius: 4px;
+    padding: 10px 8px;
+    font-size: 14px;
+    cursor: text;
+    color: #253858;
+    width: 100%;
+    display: table;
+    text-align: left;
+    z-index: 9;
+    background: transparent;
+    position: relative;
+    background: url(../images/select-arrow.svg) no-repeat 0 0 / 14px;
+    background-position: right 8px top 15px;
+    font-weight: 500;
+    background-size: 12px;
+    cursor: pointer;
+}
+
+.btn {
+    display: table;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 20px;
+    height: 56px;
+    border-radius: 4px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    width: 100%;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.SAOD-Proposal .header {
+    left: 0;
+    background: #fff;
+    border-bottom: solid #d7dadc 1px;
+}
+
+.landing-page {
+    display: inline-block;
+    width: 30%;
+    width: 38%;
+    float: left;
+    border-right: dashed rgb(0 0 0 / 10%) 1px;
+    margin-left: 50px;
+    padding-right: 30px;
+    min-height: 380px;
+    margin: 0 78px 0 15%;
+    padding-right: 70px;
+}
+
+.fullrtoregno {
+    width: 80%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.formField .field {
+    position: relative;
+    margin-bottom: 18px;
+    display: table;
+    width: 100%;
+}
+
+.titlebox {
+    width: 14%;
+    display: inline-block;
+    margin: 0 0px 0 0;
+    position: relative;
+}
+
+.fullrtoregno:before {
+    width: 1px;
+    height: 26px;
+    background: #dbdfe5;
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: 13px;
+}
+
+.SAOD-Proposal .vehicle-detail {
+    padding: 30px 0 15px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px #192a4a29;
+    background: #fff;
+    display: inline-block;
+    margin-top: 85px;
+    min-height: auto;
+}
+
+.SAOD-Proposal .mr-bottom {
+    margin-bottom: 17px;
+}
+
+.SAOD-Proposal .row h4 {
+    line-height: 34px;
+    color: rgb(37 56 88 / 60%);
+}
+
+.t_c {
+    color: #253858;
+    padding: 0 10px 10px 10px;
+    font-size: 12px;
+}
+
+.SAOD-Proposal .formField .field .did-floating-label {
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 7px;
+    top: 18px;
+    padding: 0 5px;
+    background: #fff;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+    color: #7C889B;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.SAOD-Proposal .formField .field .did-floating-select {
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    height: 36px;
+    padding: 0 20px;
+    background: #fff;
+    color: #323840;
+    border: 1px solid rgb(37 56 88 / 20%);
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 44px;
+    font-family: inherit;
+    -webkit-appearance: none;
+    border-radius: 8px;
+    padding: 13px;
+    cursor: text;
+    color: #253858;
+}
+
+.SAOD-Proposal .formField .field .did-floating-select:focus {
+    outline: none;
+}
+
+.SAOD-Proposal .formField .field .did-floating-select:focus~.did-floating-label {
+    top: -8px;
+    font-size: 13px;
+}
+
+.SAOD-Proposal .formField .field select.did-floating-select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+}
+
+.SAOD-Proposal .formField .field .did-floating-input:not(:placeholder-shown)~.did-floating-label {
+    top: -8px;
+    font-size: 13px;
+}
+
+.SAOD-Proposal .formField .field .did-floating-select:not([value=""]):valid~.did-floating-label {
+    top: -8px;
+    font-size: 13px;
+}
+
+.SAOD-Proposal .formField .field .did-floating-select[value=""]:focus~.did-floating-label {
+    top: 11px;
+    font-size: 13px;
+}
+
+.SAOD-Proposal .formField .field .did-floating-select:not([multiple]):not([size]) {}
+
+.SAOD-Proposal .formField .field .titlebox:after {
+    width: 14px;
+    height: 14px;
+    content: "";
+    position: absolute;
+    right: 10px;
+    top: 21px;
+    background: url(../images/select-arrow.svg) no-repeat 0 0 / 12px;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.SAOD-Proposal .formField .field select#registrationDate,
+.formField .field select#expiryDate {
+    width: 94%;
+}
+
+.SAOD-Proposal .formField .field select+label {
+    position: absolute;
+    top: -9px;
+    background: #fff;
+    left: 10px;
+    padding: 0px 4px;
+    color: #5E6C84;
+    font-size: 12px;
+}
+
+.SAOD-Proposal .formField label,
+.SAOD-Proposal .formField input {
+    transition: all 0.2s;
+    touch-action: manipulation;
+}
+
+.SAOD-Proposal .formField input,
+.SAOD-Proposal .formField textarea {
+    font-size: 16px;
+    border: 0;
+    border: 1px solid rgb(37 56 88 / 20%);
+    font-family: inherit;
+    -webkit-appearance: none;
+    border-radius: 4px;
+    padding: 13px;
+    font-size: 16px;
+    cursor: text;
+    color: #253858 !important;
+    width: 95.4%;
+    display: table;
+    text-align: left;
+    z-index: 9;
+    background: transparent;
+    position: relative;
+    font-weight: 500;
+}
+
+.SAOD-Proposal .formField textarea {
+    display: inline-block;
+    margin-bottom: -4px;
+}
+
+.SAOD-Proposal .formField .field input.input-disable {
+    width: 100px;
+    position: absolute;
+    right: 0;
+    border: none;
+    background: #e6f0fd;
+    width: 69px;
+    height: 40px;
+    top: 8px;
+    left: 7px;
+    font-size: 14px;
+    text-align: center;
+    color: rgb(37 56 88 / 60%);
+    font-size: 14px;
+    z-index: 99;
+}
+
+.SAOD-Proposal .formField input:focus,
+.SAOD-Proposal .formField textarea:focus {
+    outline: 0;
+}
+
+.SAOD-Proposal .formField label {
+    text-transform: normal;
+    display: table;
+    letter-spacing: 0px;
+    font-size: 14px;
+    color: #253858;
+    margin-top: 7px;
+}
+
+.SAOD-Proposal .formField input:placeholder-shown+label,
+.SAOD-Proposal .formField textarea:placeholder-shown+label {
+    cursor: text;
+    position: absolute;
+    top: 15px;
+    left: 12px;
+    color: #abb2be;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.SAOD-Proposal .formField label.title_1 {
+    position: absolute;
+    top: -9px;
+    font-size: 12px;
+    left: 8px;
+    background: #fff;
+    padding: 0 3px;
+    z-index: 2;
+    color: #5E6C84;
+}
+
+.SAOD-Proposal .formField::-webkit-input-placeholder {
+    opacity: 1;
+    transition: inherit;
+}
+
+.SAOD-Proposal .formField input::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+}
+
+.SAOD-Proposal .formField .fullrtoregno input::-webkit-input-placeholder {
+    opacity: 1;
+    transition: inherit;
+    color: #abb2be;
+}
+
+.SAOD-Proposal .formField::-webkit-input-placeholder {
+    opacity: 0;
+    transition: inherit;
+}
+
+.SAOD-Proposal .formField .regNum input::-webkit-input-placeholder {
+    opacity: 1;
+    transition: inherit;
+}
+
+.SAOD-Proposal .formField input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.SAOD-Proposal .formField::-moz-placeholder {
+    opacity: 0;
+    transition: inherit;
+}
+
+.SAOD-Proposal .formField input::-moz-placeholder {
+    opacity: 0;
+    transition: inherit;
+}
+
+.SAOD-Proposal .formField input:focus::-moz-placeholder {
+    opacity: 0;
+}
+
+.SAOD-Proposal .formField input:not(:placeholder-shown)+label,
+.SAOD-Proposal .formField input:focus+label,
+.SAOD-Proposal .formField textarea:not(:placeholder-shown)+label,
+.SAOD-Proposal .formField textarea:focus+label {
+    cursor: pointer;
+    position: absolute;
+    top: -8px;
+    left: 9px;
+    padding: 0 3px;
+    font-size: 12px;
+    background: #fff;
+    width: auto;
+    display: table;
+    width: auto;
+    z-index: 10;
+    color: rgb(37 56 88 / 50%);
+    margin: 0;
+    z-index: 9;
+    letter-spacing: 0.3px;
+}
+
+.SAOD-Proposal .formField .saod_heading {
+    font-size: 20px;
+    color: #253858;
+    margin: 0 0 15px;
+    font-weight: 500;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.SAOD-Proposal .formField .saod_heading span {
+    font-size: 14px;
+    display: block;
+    color: rgb(37 56 88 / 40%);
+    font-weight: 400;
+}
+
+.SAOD-Proposal .formField .fullName label {
+    position: absolute;
+    left: 10px;
+    top: -16px;
+    padding: 0 3px;
+    background: #fff;
+    font-size: 12px;
+    color: rgb(37 56 88 / 50%);
+}
+
+.SAOD-Proposal .formField .fullName.Nominee label {
+    width: 90px;
+}
+
+.SAOD-Proposal .formField input,
+.SAOD-Proposal .formField textarea {
+    width: 100%;
+}
+
+.SAOD-Proposal .formField .fullrtoregno input {
+    border-radius: 0 8px 8px 0;
+    border: none;
+    box-shadow: none;
+}
+
+.SAOD-Proposal .formField .field.fullName {
+    border: 1px solid rgb(37 56 88 / 20%);
+    border-radius: 4px;
+}
+
+.SAOD-Proposal .formField .field.fullName+.error-msg {
+    top: -14px;
+}
+
+.SAOD-Proposal .formField .field.fullName select {
+    border: none;
+    background: none;
+    line-height: 28px;
+    padding-left: 13px;
+    font-weight: 500;
+    padding-bottom: 0;
+}
+
+.SAOD-Proposal .formField .relationAge .titlebox.w75 {
+    width: 73%;
+}
+
+.SAOD-Proposal .formField .relationAge .titlebox.w25 {
+    width: 25%;
+    float: right;
+}
+
+.SAOD-Proposal .formField .relationAge .titlebox label {
+    position: absolute;
+    left: 10px;
+    top: -7px;
+    padding: 0 3px;
+    background: #fff;
+    font-size: 12px;
+    color: rgb(37 56 88 / 50%);
+}
+
+.SAOD-Proposal .formField .txt-field {
+    width: 100%;
+    display: table;
+    line-height: 20px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.SAOD-Proposal .formField .txt-field label {
+    padding-top: 14px;
+    float: left;
+    color: #253858;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.SAOD-Proposal .formField .txt-field select {
+    width: 100px;
+    border: none;
+    border-bottom: solid #d3d7dd 1px;
+    padding: 10px 0 8px 0;
+    float: right;
+    font-size: 12px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #253858;
+    -webkit-appearance: none;
+    background: none;
+}
+
+.SAOD-Proposal .formField .txt-field:after {
+    width: 14px;
+    height: 14px;
+    content: "";
+    position: absolute;
+    right: -2px;
+    top: 12px;
+    background: url(../images/select-arrow.svg) no-repeat 0 0 / 12px;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.express-summary-right {
+    width: 410px;
+    display: inline-block;
+    translate: 25px 0 50px;
+    top: 85px;
+}
+
+.vehicle-detail .btn-primary {
+    width: 332px;
+    z-index: 99;
+    height: 1px;
+}
+
+.SAOD-Proposal .car-detail,
+.SAOD-Proposal .policy-detail {
+    margin-bottom: 11px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 6px 16px #3469cb29;
+    padding: 10px 0;
+    border: solid rgb(89 143 234 / 30%) 0px;
+}
+
+.SAOD-Proposal .car-detail {
+    margin-bottom: 10px;
+}
+
+.SAOD-Proposal .policy-detail {
+    padding-bottom: 0;
+}
+
+.SAOD-Proposal .policy-detail img {
+    width: 100px;
+    margin: 10px 20px 10px 15px;
+    float: left;
+}
+
+.SAOD-Proposal .policy-detail .insurer_name {
+    float: left;
+    margin: 4px 0 0 0;
+    line-height: 22px;
+    font-size: 14px;
+    color: #253858;
+    font-weight: 500;
+}
+
+.SAOD-Proposal .policy-detail .insurer_name span {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(37 56 88 / 60%);
+}
+
+.SAOD-Proposal .car-detail li:nth-child(1) {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 2px;
+    padding-left: 15px;
+}
+
+.SAOD-Proposal .car-detail li:nth-child(2) {
+    font-size: 1.2rem;
+    display: inline-block;
+    padding-left: 15px;
+    color: rgb(37 56 88 / 70%);
+}
+
+.SAOD-Proposal .car-detail li:nth-child(3) {
+    font-size: 1.2rem;
+    display: inline-block;
+    border-left: solid 1px rgb(37 56 88 / 70%);
+    color: rgb(37 56 88 / 70%);
+    padding-left: 8px;
+    margin-left: 8px;
+    line-height: 12px;
+    font-weight: 400;
+}
+
+.SAOD-Proposal .msg-summary {
+    clear: both;
+    color: #253858;
+    font-size: 12px;
+    background: none;
+    margin: 0;
+    padding: 10px 0 15px 15px;
+}
+
+.SAOD-Proposal .msg-summary b {
+    font-weight: 500;
+}
+
+.SAOD-Proposal .msg-summary:before {
+    position: absolute;
+    left: 11px;
+    top: 8px;
+    width: 14px;
+    height: 15px;
+    content: "";
+    z-index: 0;
+}
+
+.SAOD-Proposal .plan-detail {
+    padding: 0px 0 2px 0;
+    width: 100%;
+    border-top: solid rgb(185 201 226 / 40%) 1px;
+    display: table;
+    margin-top: 0;
+}
+
+.SAOD-Proposal .plan-detail+.line {
+    display: none;
+}
+
+.SAOD-Proposal .plan-detail img {
+    width: 100px;
+    display: inline-block;
+    margin: 5px 0;
+    position: relative;
+    top: -21px;
+}
+
+.SAOD-Proposal .plan-detail ul {
+    display: flex;
+    width: 100%;
+    vertical-align: top;
+    float: right;
+    padding: 3px 0 0 0;
+}
+
+.SAOD-Proposal .plan-detail ul li {
+    width: 52%;
+    font-size: 12px;
+    color: rgb(37 56 88 / 50%);
+    padding: 6px 0 6px 15px;
+    font-weight: 400;
+}
+
+.SAOD-Proposal .plan-detail ul li:nth-child(2) {
+    text-align: right;
+    padding-right: 20px;
+    padding-left: 0;
+    width: 48%;
+}
+
+.SAOD-Proposal .plan-detail ul li b {
+    color: #253858;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
+.SAOD-Proposal .premium-detail {
+    font-size: 14px;
+    display: table;
+    margin: 6px auto 0;
+    width: 100%;
+    position: absolute;
+    background: #fff;
+    width: 96.6%;
+    border-radius: 6PX;
+    box-shadow: 0px 6px 16px #3469cb29;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.SAOD-Proposal .premium-detail .icn-close {
+    position: absolute;
+    right: 18px;
+    display: none;
+}
+
+.SAOD-Proposal .premium-detail h4 {
+    padding: 0 8px 0 0;
+    margin: 20px 0 0 0;
+    font-weight: 500;
+    background: #fff;
+    position: relative;
+    width: auto;
+    display: table;
+    color: #253858;
+}
+
+.SAOD-Proposal .premium-detail ul {
+    padding: 0 16px;
+}
+
+.SAOD-Proposal .premium-detail ul li {
+    color: rgb(37 56 88 / 80%);
+    list-style-type: none;
+    line-height: 26px;
+    font-size: 1.4rem;
+}
+
+.SAOD-Proposal .premium-detail ul li.discount {}
+
+.SAOD-Proposal .premium-detail ul li.discount em {
+    background: rgb(54 179 126 / 10%);
+    color: #36B37E;
+    font-style: normal;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin: 0 -7px;
+}
+
+.SAOD-Proposal .premium-detail ul li.discount b {
+    color: #36B37E;
+}
+
+.SAOD-Proposal .premium-detail ul li b {
+    color: #253858;
+    font-weight: 500;
+    float: right;
+}
+
+.SAOD-Proposal .policy-detail h2,
+.express-summary-right .premium-detail h2 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 2px 15px 0;
+    color: rgb(37 56 88 / 91%);
+    width: auto;
+    display: table;
+    width: auto;
+    margin-left: 116px;
+}
+
+.SAOD-Proposal .policy-detail h2 span {
+    position: relative;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: rgb(37 56 88 / 80%);
+    padding-left: 20px;
+}
+
+.SAOD-Proposal .policy-detail h2 span:before {
+    width: 4px;
+    height: 4px;
+    background: #697c9c;
+    border-radius: 10px;
+    position: absolute;
+    content: "";
+    top: 7px;
+    left: 7px;
+}
+
+.SAOD-Proposal .policy-detail .paCover {
+    width: 100%;
+    margin: 0 auto;
+    padding: 3px 7px 11px;
+}
+
+.SAOD-Proposal .policy-detail .paCover h3 {
+    margin: 1px 0 6px 10px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    /*border-bottom: dashed 1px #253858;*/
+    display: table;
+}
+
+.SAOD-Proposal .policy-detail .paCover input[type="checkbox"] {
+    vertical-align: top;
+    margin-top: 6px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.SAOD-Proposal .policy-detail .paCover p {
+    font-size: 1.2rem;
+    display: inline-block;
+    line-height: 22px;
+    margin-left: 7px;
+    font-weight: 400;
+}
+
+.SAOD-Proposal .policy-detail .paCover b {
+    font-size: 1.4rem;
+    font-weight: 500;
+    display: block;
+}
+
+.total-amount {
+    font-size: 2.1rem;
+    color: #000000;
+    font-weight: 500;
+    padding: 2px 8px 3px;
+}
+
+.total-amount b {
+    font-size: 2.2rem;
+    color: #0065FF;
+    font-weight: 600;
+    float: right;
+}
+
+.SAOD-Proposal .btn-fixed {
+    display: none;
+}
+
+.SAOD-Proposal .paCover h3 {
+    position: relative;
+    -webkit-transform: translateZ(0);
+    -webkit-font-smoothing: antialiased;
+}
+
+.SAOD-Proposal .paCover h3 .tooltip {
+    background: #fff;
+    bottom: 100%;
+    color: rgb(37 56 88 / 90%);
+    display: block;
+    left: -160px;
+    margin-bottom: 10px;
+    opacity: 0;
+    padding: 10px;
+    pointer-events: none;
+    position: absolute;
+    width: 342px;
+    -webkit-transform: translateY(10px);
+    -moz-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    -o-transform: translateY(10px);
+    transform: translateY(10px);
+    -webkit-transition: all .25s ease-out;
+    -moz-transition: all .25s ease-out;
+    -ms-transition: all .25s ease-out;
+    -o-transition: all .25s ease-out;
+    transition: all .25s ease-out;
+    -webkit-box-shadow: 0px 6px 12px rgb(0 0 0 / 16%);
+    -moz-box-shadow: 0px 6px 12px rgb(0 0 0 / 16%);
+    -ms-box-shadow: 0px 6px 12px rgb(0 0 0 / 16%);
+    -o-box-shadow: 0px 6px 12px rgb(0 0 0 / 16%);
+    box-shadow: 0px 6px 12px rgb(0 0 0 / 16%);
+    font-size: 12px;
+    border-radius: 6px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.SAOD-Proposal .paCover h3 .tooltip:before {
+    bottom: -20px;
+    content: " ";
+    display: block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.SAOD-Proposal .paCover h3 .tooltip:after {
+    border-left: solid transparent 8px;
+    border-right: solid transparent 8px;
+    border-top: solid #ffffff 8px;
+    bottom: -8px;
+    content: " ";
+    height: 0;
+    left: 50%;
+    margin-left: -13px;
+    position: absolute;
+    width: 0;
+}
+
+.SAOD-Proposal .paCover h3 i:hover .tooltip {
+    opacity: 1;
+    pointer-events: auto;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+.SAOD-Proposal .paCover .tooltip b {
+    display: inline-block;
+    font-size: 12px;
+    color: rgb(37 56 88 / 90%);
+    padding-left: 3px;
+}
+
+.customRadio {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    display: block;
+    margin-bottom: 8px;
+    line-height: 16px;
+    padding: 0;
+}
+
+.customRadio span.text {
+    display: block;
+    font-size: 1.6rem
+}
+
+.customRadio span.circle {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #253858;
+    border-radius: 50%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all ease .1s;
+    -webkit-transition: all ease .1s;
+    -ms-transition: all ease .1s
+}
+
+.SAOD-Proposal .customRadio span {
+    float: left;
+    margin-right: 6px;
+}
+
+.customRadio input[type="radio"],
+.customRadio .customRadioBtnV2 input[type="checkbox"],
+.customRadioBtnV2 .customRadio input[type="checkbox"] {
+    display: none
+}
+
+.customRadio input[type="radio"]:checked+span.circle,
+.customRadio .customRadioBtnV2 input:checked[type="checkbox"]+span.circle,
+.customRadioBtnV2 .customRadio input:checked[type="checkbox"]+span.circle {
+    border-color: #0065FF;
+    border-width: 5px
+}
+
+.customRadio input[type="radio"]:checked~span.text,
+.customRadio .customRadioBtnV2 input:checked[type="checkbox"]~span.text,
+.customRadioBtnV2 .customRadio input:checked[type="checkbox"]~span.text {
+    color: #0065FF
+}
+
+.customRadio input[type="checkbox"] {
+    display: none
+}
+
+.customRadio input[type="checkbox"]:checked+span.circle {
+    border-color: #0065FF;
+    border-width: 5px
+}
+
+.customRadio input[type="checkbox"]:checked~span.text {
+    color: #0065FF
+}
+
+.customRadio .squareBox {
+    border: 1px solid rgba(37, 56, 88, 0.6);
+    border-radius: 8px;
+    min-height: 55px;
+    padding: 0px 12px 0 40px;
+    line-height: 55px
+}
+
+.customRadio .squareBox span.circle {
+    left: 12px
+}
+
+.customRadio input:checked+div.squareBox {
+    border-color: #0065FF
+}
+
+.customRadio input:checked+div.squareBox span.circle {
+    border-color: #0065FF;
+    border-width: 5px
+}
+
+.customRadio input:checked+div.squareBox span.text {
+    color: #0065FF
+}
+
+.customRadio.type2 {
+    padding-left: 0;
+    margin-bottom: 0
+}
+
+.customRadio p {
+    line-height: normal
+}
+
+.customRadioBtn {
+    cursor: pointer;
+    display: block;
+    margin-bottom: 0px
+}
+
+.formField .field div.rto {
+    position: absolute;
+    background: rgb(232 232 232 / 50%);
+    top: 8px;
+    left: 10px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: #253858;
+    z-index: 99;
+}
+
+.SAOD-Proposal .formField input:placeholder-shown+label[for="registrationNumber"] {
+    left: 76px;
+}
+
+.SAOD-Proposal .formField input:not(:placeholder-shown)+label[for="registrationNumber"],
+.SAOD-Proposal .formField input:focus+label[for="registrationNumber"] {
+    left: 76px;
+}
+
+.SAOD-Proposal .formField input[name="registrationNumber"] {
+    padding-left: 76px;
+    text-transform: uppercase;
+}
+
+.SAOD-Proposal .wa-cover {
+    position: absolute;
+    top: 13px;
+    right: 34px;
+    z-index: 99;
+}
+
+.formField .field.errorfield input {}
+
+.SAOD-Proposal .premium-detail .btn-primary {
+    width: 92%;
+    margin: 0 auto;
+    line-height: 38px;
+    cursor: pointer;
+    height: 50px;
+}
+
+.error-msg {
+    clear: both;
+    border: none !important;
+    background: none;
+    color: #F65C5C;
+    font-size: 11px;
+    position: relative;
+    line-height: 14px;
+    padding-left: 2px;
+    margin-top: 5px;
+}
+
+.error-msg::after {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "!";
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    padding: 0;
+    background: #F65C5C;
+    color: #fff;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.formField .field.errorfield input {
+    border: solid #F65C5C 1px;
+}
+
+.formField .field.errorfield input:not(:placeholder-shown)+label,
+.formField .field.errorfield input:focus+label {
+    color: #F65C5C;
+}
+
+.formField .field.fullName.errorfield {
+    border: solid #F65C5C 1px;
+}
+
+.formField .field.fullName.errorfield input {
+    border: none;
+}
+
+.formField .field.fullName.errorfield label {
+    color: #F65C5C;
+}
+
+.SAOD-Proposal #title {
+    display: inline-block;
+    margin-left: 8.33333333%;
+    vertical-align: top;
+}
+
+.SAOD-Proposal #title div {
+    width: 100px;
+    padding: 0;
+    margin: 0 0 0 7px;
+}
+
+.SAOD-Proposal #title div h4 {
+    position: absolute;
+    left: 10px;
+    top: -16px;
+    padding: 0 3px;
+    background: #fff;
+    font-size: 12px;
+    color: rgb(37 56 88 / 50%);
+    z-index: 99;
+}
+
+.SAOD-Proposal #title div select {
+    padding: 13px;
+    margin: 0;
+}
+
+.SAOD-Proposal #custname {
+    display: inline-block;
+}
+
+.SAOD-Proposal #custname div {
+    width: 392px;
+    padding: 0;
+    margin: 0 0 5px 7px;
+}
+
+.formField .editmobile {
+    color: #0563f6;
+    position: absolute;
+    right: 8px;
+    top: 12px;
+    z-index: 9;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #fff inset !important;
+}
+
+.SAOD-Proposal .premiumChanged {
+    border-radius: 8px;
+    width: 463px;
+    position: fixed;
+    z-index: 9;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    height: auto;
+    display: table;
+    border-radius: 0;
+    padding: 20px 0;
+}
+
+.SAOD-Proposal .premiumChanged .icn-close {
+    position: absolute;
+    right: 18px;
+    display: block;
+    width: 22px;
+    border-radius: 50%;
+    height: 22px;
+    opacity: 0.7;
+}
+
+.SAOD-Proposal .premiumChanged h2 {
+    font-size: 18px;
+    padding: 70px 0 0 0;
+    font-weight: 600;
+    background: url(../images/price-icon.svg) no-repeat center 25px / 36px;
+    text-align: center;
+}
+
+.SAOD-Proposal .premiumChanged p {
+    padding: 0 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.SAOD-Proposal .premiumChanged .premiumVal {
+    width: 88%;
+    border: dashed 1px #69C0D9;
+    border-radius: 12px;
+    margin: 20px auto;
+    background: #FAFEFF;
+    padding: 24px 0 0 0;
+}
+
+.SAOD-Proposal .premiumChanged .premiumVal img {
+    float: left;
+    margin-left: 15px;
+}
+
+.SAOD-Proposal .premiumChanged .premiumVal .updated-idv {
+    margin-right: 20px;
+    width: 50%;
+    float: right;
+}
+
+.SAOD-Proposal .premiumChanged .premiumVal .updated-idv li {
+    font-size: 12px;
+    color: #253858;
+    margin-bottom: 10px;
+}
+
+.SAOD-Proposal .premiumChanged .premiumVal .updated-idv li span {
+    float: right;
+    font-weight: 600;
+}
+
+.SAOD-Proposal .premiumChanged .premiumVal .updated-premium {
+    margin: 20px;
+    clear: both;
+}
+
+.SAOD-Proposal .premiumChanged .premiumVal .updated-idv li:nth-child(1) span {
+    color: rgb(37 56 88 / 50%);
+    text-decoration: line-through;
+}
+
+.SAOD-Proposal .premiumChanged .premiumVal .updated-premium {
+    margin: 20px;
+}
+
+.SAOD-Proposal .premiumChanged .premiumVal .updated-premium li {
+    text-align: left;
+    font-size: 12px;
+    margin-bottom: 18px;
+}
+
+.SAOD-Proposal .premiumChanged .premiumVal .updated-premium li span {
+    float: right;
+    color: #FF7452;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.SAOD-Proposal .premiumChanged .premiumVal .updated-premium li:nth-child(1) span {
+    float: right;
+    color: rgb(37 56 88 / 50%);
+    text-decoration: line-through;
+}
+
+.SAOD-Proposal .premiumChanged .premiumVal .updated-premium li:nth-child(2) {
+    font-weight: 500;
+}
+
+.SAOD-Proposal .changePlan {
+    font-size: 14px;
+    color: #0065FF;
+    border-top: solid 2px rgb(105 192 217 / 50%);
+    display: table;
+    width: 100%;
+    margin: 20px auto 0;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.SAOD-Proposal .premiumChanged .btnBlue {
+    background: #0065FF;
+    width: 88%;
+    margin: 0 auto;
+    display: table;
+    border: none;
+    color: #fff;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    height: 56px;
+    padding: 0;
+}
+
+.SAOD-Proposal .cd-popup {
+    background: rgb(23 43 77 / 80%);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+.SAOD-Proposal .cd-popup-container {
+    border-radius: 8px;
+    width: 463px;
+    position: fixed;
+    z-index: 9;
+    background: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    height: auto;
+    display: table;
+    text-align: center;
+}
+
+.SAOD-Proposal .cd-popup-container img {
+    width: 200px;
+    margin: 0 auto;
+    display: block;
+}
+
+.SAOD-Proposal .cd-popup-container b {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.SAOD-Proposal .errorbutton.insurererror {
+    background: #0065FF;
+    width: 88%;
+    margin: 20px auto 20px;
+    display: table;
+    border: none;
+    color: #fff;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/**********Loader css start here*************/
+
+.SAOD-Proposal .btn-primary .loader,
+.SAOD-Proposal .btnBlue .loader {
+    font-size: 10px;
+    margin: 5px auto;
+    text-indent: -9999em;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #ffffff;
+    background: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: linear-gradient(to right, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    position: relative;
+    -webkit-animation: load3 1.4s infinite linear;
+    animation: load3 1.4s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.SAOD-Proposal .btn-primary .loader:before,
+.SAOD-Proposal .btnBlue .loader:before {
+    width: 50%;
+    height: 50%;
+    background: #ffffff;
+    border-radius: 100% 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+}
+
+.SAOD-Proposal .btn-primary .loader:after,
+.SAOD-Proposal .btnBlue .loader:after {
+    background: #167af6;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    content: '';
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.SAOD-Proposal .errorbutton .loader {
+    font-size: 10px;
+    margin: 5px auto;
+    margin-top: 10px;
+    text-indent: -9999em;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #ffffff;
+    background: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: -ms-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
+    background: linear-gradient(to right, #0563f6 10%, rgba(255, 255, 255, 0) 42%);
+    position: relative;
+    -webkit-animation: load3 1.4s infinite linear;
+    animation: load3 1.4s infinite linear;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.SAOD-Proposal .errorbutton .loader:before {
+    width: 50%;
+    height: 50%;
+    background: #0563f6;
+    border-radius: 100% 0 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+}
+
+.SAOD-Proposal .errorbutton .loader:after {
+    background: #ffffff;
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    content: '';
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@-webkit-keyframes load3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load3 {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+/**********Loader css ends here*************/
+
+.SAOD-Proposal .mr-bottom div+div+div+.error-msg {
+    margin-left: 9.2%;
+    clear: both;
+    top: 4px;
+}
+
+.error-msg:before {
+    display: none;
+}
+
+.SAOD-Proposal .errorbutton.insurererror.retryPG {
+    color: #0065FF;
+    background: #fff;
+    border: solid #0065FF 1px;
+    height: 52px;
+    padding: 0;
+    line-height: 48px;
+    cursor: pointer;
+}
+
+.SAOD-Proposal .vehicle-form .loadingtext {
+    text-align: center;
+    padding: 0;
+    top: 50%;
+    position: fixed;
+    left: 50%;
+    line-height: 115px;
+    font-size: 12px;
+    letter-spacing: 4px;
+    text-indent: -8px;
+    /* margin-left: -23px; */
+    z-index: 11;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    z-index: 999;
+}
+
+.SAOD-Proposal .vehicle-form .loadingtext .Quotespageloading {
+    height: 0;
+    width: 0;
+    padding: 20px;
+    border: 4px solid #98bdf5;
+    border-right-color: #0065FF;
+    border-radius: 45px;
+    -webkit-animation: rotate 1s infinite linear;
+    position: absolute;
+    left: 4%;
+    top: -9px;
+    z-index: 99;
+    left: 50%;
+    top: 50%;
+}
+
+.SAOD-Proposal .policy-detail .paCover h3 i {
+    border: solid rgb(35 54 84 / 50%) 1px;
+    color: rgb(35 54 84 / 50%);
+    width: 15px;
+    display: inline-block;
+    height: 15px;
+    border-radius: 14px;
+    font-size: 11px;
+    left: 0;
+    text-align: center;
+    font-style: normal;
+    position: relative;
+    top: -1px;
+    left: 2px;
+    line-height: 13px;
+}
+
+.SAOD-Proposal .formField .saod_heading .back {
+    position: absolute;
+    left: -54px;
+    top: -58px;
+    width: 56px;
+    height: 18px;
+    padding: 0 0 0 21px;
+    font-size: 12px;
+    color: #0765f6;
+    line-height: 18px;
+    font-weight: 400;
+    background: url(../images/back-btn.svg) no-repeat 0px 1px;
+    background-size: 15px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0 20px 0;
+    line-height: 10px;
+    border-top: solid #dfe5ea 1px;
+    width: 100%;
+    margin: 100px auto 15px;
+    color: rgba(85, 111, 123, 0.8);
+    clear: both;
+    animation: fadein 2s;
+    font-size: 10px;
+}
+
+.footer p {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.footer a {
+    font-size: 10px;
+    margin-bottom: 3px;
+    display: inline-block;
+}
+
+.footer .orange-text {
+    color: #f68630;
+}
+
+.overlay {
+    background: rgb(38 52 81 / 90%) !important;
+}
+
+/*******error page css***********/
+
+.is-visible .cd-popup-container.error_popup {
+    width: 550px;
+    padding: 20px 35px;
+    padding-top: 15px;
+    height: auto;
+    min-height: 230px;
+}
+
+.is-visible .cd-popup-container.error_popup b {
+    text-align: left;
+    font-size: 18px;
+    margin-bottom: 4px;
+    padding: 18px 0;
+}
+
+.is-visible .cd-popup-container.error_popup p {
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+    color: #2538588c;
+    line-height: 18px;
+}
+
+.is-visible .cd-popup-container.error_popup p span {
+    color: #ff6263;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.is-visible .cd-popup-container.error_popup img {
+    position: absolute;
+    right: 60px;
+    top: 40px;
+    width: 22%;
+    margin-top: 0;
+}
+
+.is-visible .cd-popup-container.error_popup .close-btn {
+    background: none;
+    font-size: 18px;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    text-indent: -100px;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border: none;
+}
+
+.is-visible .cd-popup-container.error_popup .close-btn:before,
+.is-visible .cd-popup-container.error_popup .close-btn:after {
+    position: absolute;
+    left: 11px;
+    content: " ";
+    height: 24px;
+    width: 1px;
+    background-color: #c6c6c6;
+    top: 0;
+}
+
+.is-visible .cd-popup-container.error_popup .close-btn:before {
+    transform: rotate(45deg);
+}
+
+.is-visible .cd-popup-container.error_popup .close-btn:after {
+    transform: rotate(-45deg);
+}
+
+.is-visible .cd-popup-container p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #868383;
+    font-weight: 300;
+    margin: 0 0 5px 0;
+}
+
+.is-visible .cd-popup-container.error_popup .quote-tile {
+    height: auto;
+    margin: 20px auto 20px;
+    transition: unset;
+}
+
+.is-visible .cd-popup-container.error_popup .quote-tile-actual {
+    width: 100%;
+    margin: 0 auto 0;
+}
+
+.is-visible .cd-popup-container.error_popup .quote-tile-actual .quote-tile-inner {
+    box-shadow: 4px 6px 13px rgb(52 105 203 / 10%);
+    border: solid rgba(37, 56, 88, 0.07) 1px;
+    border-radius: 8px;
+    padding: 15px 10px;
+    display: flex;
+}
+
+.is-visible .cd-popup-container.error_popup .logo-image {
+    width: 25%;
+    border: none;
+    padding: 0;
+    min-height: 0;
+    display: table;
+    vertical-align: top;
+}
+
+.is-visible .cd-popup-container.error_popup .logo-image img {
+    width: 100px !important;
+    margin: 6px 0 0 0;
+    position: unset;
+}
+
+.is-visible .cd-popup-container.error_popup .show-TP-section {
+    font-size: 12px;
+    width: 47%;
+    text-align: center;
+    color: #253858;
+    padding: 3px 0px 0 14px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-right: 25px;
+}
+
+.is-visible .cd-popup-container.error_popup .claim-set-section {
+    text-align: center;
+    width: 25%;
+    margin-right: 5px;
+    border-right: solid 1px #cce7d4;
+    border-right: solid 1px #cce7d4;
+    border: none;
+    text-align: left;
+}
+
+.is-visible .cd-popup-container.error_popup .show-idv-section span,
+.is-visible .cd-popup-container.error_popup .claim-set-section span {
+    font-size: 14px;
+    color: #253858;
+    font-weight: 500;
+    text-align: center;
+    text-align: left;
+}
+
+.is-visible .cd-popup-container.error_popup .show-idv-section span label,
+.is-visible .cd-popup-container.error_popup .claim-set-section span label {
+    font-size: 12px;
+    display: block;
+    font-weight: 400;
+    padding-bottom: 3px;
+}
+
+.is-visible .cd-popup-container.error_popup .buy-now-section {
+    width: 22%;
+}
+
+.is-visible .cd-popup-container.error_popup .buy-now-btn {
+    width: 100px;
+    height: 44px;
+    padding: 0 0 0 22px;
+}
+
+.is-visible .cd-popup-container.error_popup .buy-now-btn {
+    width: 95px;
+    font-size: 16px;
+    padding: 1px 14px 0 16px;
+    background-size: 14px;
+    height: 44px;
+    font-size: 16px;
+    margin: 0;
+    background-size: 12px;
+    background-position: 90%;
+    float: right;
+    border-radius: 8px;
+    background: #0065FF url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAALCAYAAACZIGYHAAAAAXNSR0IArs4c6QAAAKpJREFUKBVjYCAB/P//X4YE5ZhKgQa0AzEIRGLKEikC1OwCxM+A+AMQRxCpDVMZULMe1JB/QDoYpoIRyJEHcl7DBIigtYFqDgAxBxAHMjIybgIZ8h/I+QzEpABuqOJ/QDqEBUhsA2JSDZEC6rEF4ttAfIwB6BA2IINoAFRfA8QfgfgaEIMMIw0ANZVBDbgJpElPM0BNRUAMAqAoBkUG6QCoUQJkAhCIoesGAEzFcugHApaCAAAAAElFTkSuQmCC) no-repeat 90% 17px;
+    color: #fff;
+    border: none;
+    text-align: left;
+    padding-left: 17px;
+    background-size: 11px;
+}
+
+.is-visible .cd-popup-container.error_popup .buy-now-btn span {
+    display: block;
+    font-size: 10px;
+    opacity: 0.7;
+    position: relative;
+    left: -11px;
+    font-size: 9px;
+    left: -2px;
+}
+
+.is-visible .cd-popup-container.error_popup .button-row .errorbutton:nth-child(1) {
+    float: left !important;
+    color: #253858 !important;
+    font-size: 14px;
+    background: none;
+    margin: 0;
+}
+
+.is-visible .cd-popup-container.error_popup .button-row .errorbutton {
+    color: #0563f6 !important;
+    float: right !important;
+    text-decoration: underline !important;
+    font-size: 14px;
+    margin: 0;
+    width: auto;
+    border: 0;
+}
+
+.is-visible .cd-popup-container.error_popup .show-idv-section {
+    width: 25%;
+    margin-left: 10px;
+    text-align: center;
+    border: none;
+    text-align: left;
+}
+
+.is-visible .cd-popup-container.error_popup .gst-exc {
+    color: #0000006b;
+    font-style: italic;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 10px;
+}
+
+.is-visible .cd-popup-container.error_popup .show-idv-section span label,
+.is-visible .cd-popup-container.error_popup .claim-set-section span label {
+    color: #2538588a;
+}
+
+/*******error page css***********/
+
+.SAOD-Proposal .policy-detail.evenReg .premium-detail {
+    position: unset;
+    padding-top: 0;
+}
+
+.SAOD-Proposal .policy-detail.evenReg .paCover {
+    border-bottom: 1px solid #faefe8;
+    background: #fffbf8;
+}
+
+.SAOD-Proposal .policy-detail.evenReg {
+    padding: 0;
+}
+
+.SAOD-Proposal .policy-detail.evenReg .paCover {
+    padding-top: 15px;
+}
+
+.SAOD-Proposal .policy-detail.evenReg .total-amount {
+    width: 100%;
+    margin: 0 auto;
+    border-top: solid 1px rgb(0 0 0 / 15%);
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.SAOD-Proposal .vehicle-detail.evenReg {
+    padding-top: 0;
+    background: #fff url(../images/bg-pattern.svg) no-repeat right -23px top -59px;
+}
+
+.SAOD-Proposal .vehicle-detail.evenReg .saod_heading {
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.SAOD-Proposal .vehicle-detail.evenReg .saod_heading b {
+    font-weight: 400;
+}
+
+.SAOD-Proposal .vehicle-detail.evenReg .saod_heading em {
+    font-style: normal;
+    color: #009498;
+    font-weight: 500;
+}
+
+.SAOD-Proposal .premium-detail .btn-primary {
+    padding-left: 40px;
+    position: relative;
+}
+
+.SAOD-Proposal .premium-detail .btn-primary:after {
+    background: url(../images/lock-icon.svg) no-repeat 0 center / 14px;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 32%;
+    top: 14px;
+    content: "";
+}
+
+/*********************React Date Picker start here**************/
+
+.SAOD-Proposal .react-datepicker-wrapper {
+    margin: -10px 0 22px 0;
+    float: right;
+    width: 130px;
+}
+
+.SAOD-Proposal .react-datepicker-wrapper input[type="text"] {
+    padding: 0;
+    border: 0;
+    padding: 9px;
+    border: solid #d3d7de 1px;
+    border-radius: 4px;
+    width: 100%;
+    background: url(../images/calendar1.svg) no-repeat right 8px top 11px;
+    filter: grayscale(1);
+    cursor: pointer;
+}
+
+.SAOD-Proposal .react-datepicker {
+    font-family: unset;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px #707fc03b;
+    border: 1px solid #ececec;
+}
+
+.SAOD-Proposal .react-datepicker__header {
+    background-color: #f3f8ff;
+    border-bottom: 1px solid #eaf0ff;
+}
+
+.SAOD-Proposal .react-datepicker__day-name {
+    color: #7285bb;
+    font-weight: 500;
+}
+
+.SAOD-Proposal .react-datepicker__navigation-icon--previous::before {
+    border-color: #0265fc;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+    top: 8px;
+}
+
+.SAOD-Proposal .react-datepicker__navigation-icon--next:before {
+    border-color: #0265fc;
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+    top: 8px;
+}
+
+.SAOD-Proposal .react-datepicker__header:not(.react-datepicker__header--has-time-select) {
+    border-radius: 8px 8px 0 0;
+    padding: 16px 0 10px 0;
+}
+
+.SAOD-Proposal .react-datepicker__day--outside-month {
+    opacity: 0.5;
+    color: #6280a1;
+}
+
+.SAOD-Proposal .react-datepicker__day-name,
+.SAOD-Proposal .react-datepicker__day,
+.SAOD-Proposal .react-datepicker__time-name {
+    margin: 10px !important;
+    font-size: 12px;
+}
+
+.SAOD-Proposal .react-datepicker-popper[data-placement^=bottom] {
+    z-index: 10;
+    padding: 0;
+}
+
+.SAOD-Proposal .react-datepicker__day--selected,
+.SAOD-Proposal .react-datepicker__day--in-selecting-range,
+.SAOD-Proposal .react-datepicker__day--in-range,
+.SAOD-Proposal .react-datepicker__month-text--selected,
+.SAOD-Proposal .react-datepicker__month-text--in-selecting-range,
+.SAOD-Proposal .react-datepicker__month-text--in-range,
+.SAOD-Proposal .react-datepicker__quarter-text--selected,
+.SAOD-Proposal .react-datepicker__quarter-text--in-selecting-range,
+.SAOD-Proposal .react-datepicker__quarter-text--in-range,
+.SAOD-Proposal .react-datepicker__year-text--selected,
+.SAOD-Proposal .react-datepicker__year-text--in-selecting-range,
+.SAOD-Proposal .react-datepicker__year-text--in-range {
+    border-radius: 8px;
+    background-color: #0a0a0a;
+    color: #fff;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    margin: 2px !important;
+}
+
+.SAOD-Proposal .react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+    display: none;
+}
+
+.SAOD-Proposal .react-datepicker__year-read-view,
+.SAOD-Proposal .react-datepicker__month-read-view,
+.SAOD-Proposal .react-datepicker__month-year-read-view {
+    font-size: 14px;
+    font-weight: 600;
+    visibility: visible !important;
+}
+
+.SAOD-Proposal .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::before {
+    border-bottom-color: #f3e8e8;
+}
+
+.SAOD-Proposal .react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle::after {
+    border-bottom-color: #f3f8ff;
+}
+
+.SAOD-Proposal .react-datepicker__year-read-view--down-arrow,
+.SAOD-Proposal .react-datepicker__month-read-view--down-arrow,
+.SAOD-Proposal .react-datepicker__month-year-read-view--down-arrow,
+.SAOD-Proposal .react-datepicker__navigation-icon::before {
+    border-color: #000;
+    border-width: 1px 1px 0 0;
+    width: 8px;
+    height: 8px;
+}
+
+.SAOD-Proposal .react-datepicker__navigation--previous {
+    left: 14px;
+    border: solid #d3d7de 1px;
+    border-radius: 8px;
+    top: 10px
+}
+
+.SAOD-Proposal .react-datepicker__navigation--next {
+    right: 14px;
+    border: solid #d3d7de 1px;
+    border-radius: 8px;
+    top: 10px
+}
+
+.SAOD-Proposal .react-datepicker__navigation-icon--previous {
+    right: 2px;
+    top: 3px
+}
+
+.SAOD-Proposal .react-datepicker__navigation-icon--next {
+    left: 2px;
+    top: 3px
+}
+
+.SAOD-Proposal .react-datepicker__month-read-view--down-arrow,
+.SAOD-Proposal .react-datepicker__year-read-view--down-arrow {
+    top: 5px;
+    border-color: #0265fc;
+    width: 6px;
+    height: 6px;
+    right: 7px;
+}
+
+.SAOD-Proposal .react-datepicker__day-names {
+    margin: 12px 0 -8px 0
+}
+
+.SAOD-Proposal .react-datepicker__month-dropdown,
+.SAOD-Proposal .react-datepicker__month-year-dropdown,
+.SAOD-Proposal .react-datepicker__year-dropdown {
+    background-color: #fff;
+    position: absolute;
+    width: 44%;
+    left: 25%;
+    top: 5px;
+    z-index: 1;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #e4eaf6;
+    box-shadow: 0 2px 12px #53607924
+}
+
+.SAOD-Proposal .react-datepicker__month-option,
+.SAOD-Proposal .react-datepicker__month-year-option,
+.SAOD-Proposal .react-datepicker__year-option {
+    line-height: 13px;
+    font-size: 11px;
+    padding: 6px 0 6px 0
+}
+
+.SAOD-Proposal .react-datepicker__month-option--selected_month {
+    background-color: #f3f8ff
+}
+
+.SAOD-Proposal .react-datepicker__month-option:hover,
+.SAOD-Proposal .react-datepicker__month-year-option:hover,
+.SAOD-Proposal .react-datepicker__year-option:hover {
+    background-color: #f3f8ff
+}
+
+.SAOD-Proposal .react-datepicker__month-read-view {
+    visibility: visible !important;
+    padding-right: 20px;
+    margin-left: 5px;
+}
+
+.SAOD-Proposal .react-datepicker__year-dropdown-container .react-datepicker__year-dropdown {
+    left: 37%;
+    top: 20px
+}
+
+.SAOD-Proposal .react-datepicker__day:hover,
+.SAOD-Proposal .react-datepicker__month-text:hover,
+.SAOD-Proposal .react-datepicker__quarter-text:hover,
+.SAOD-Proposal .react-datepicker__year-text:hover {
+    border-radius: 8px;
+    background-color: #0a0a0a;
+    color: #fff;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    margin: 2px !important
+}
+
+.SAOD-Proposal .react-datepicker__day--keyboard-selected {
+    border-radius: 8px;
+    background-color: #0a0a0a;
+    color: #fff;
+    width: 33px;
+    height: 33px;
+    line-height: 33px;
+    margin: 2px !important
+}
+
+.SAOD-Proposal .react-datepicker__navigation--years-previous,
+.SAOD-Proposal .react-datepicker__navigation--years-upcoming {
+    display: none
+}
+
+.SAOD-Proposal .react-datepicker__year-read-view {
+    padding-right: 20px;
+    margin-left: -25px;
+}
+
+.SAOD-Proposal .react-datepicker__month-read-view:hover .react-datepicker__month-read-view--down-arrow {
+    border-top-color: #0265fc;
+}
+
+.SAOD-Proposal .react-datepicker-popper[data-placement^=top] {
+    z-index: 9;
+}
+
+.SAOD-Proposal .react-datepicker-popper[data-placement^=top] .react-datepicker__triangle::before {
+    border-top-color: #e6e6e6;
+}
+
+.SAOD-Proposal .calender_cover {
+    margin: 3px 0 20px 0px;
+}
+
+.SAOD-Proposal .calender_cover .react-datepicker-wrapper {
+    float: left;
+    margin: 0 52px 0 0;
+    width: 35%;
+}
+
+.formField .field div.rto {
+    z-index: 9;
+}
+
+.SAOD-Proposal #title div select {
+    z-index: 8;
+}
+
+.SAOD-Proposal #title div h4 {
+    z-index: 9;
+}
+
+/*********************React Date Picker ends here**************/
+
+/**********************5July2024***************************/
+
+.SAOD-Proposal .policy-detail.reviewPay {
+    background: #fff;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 8px;
+}
+
+.SAOD-Proposal .policy-detail {
+    border-radius: 8px 8px 0 0;
+    border-bottom: 1px solid #faefe8;
+    background: #fffbf8;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.SAOD-Proposal .premium-detail {
+    border-radius: 0 0 8px 8px;
+    width: 100%;
+    position: inherit;
+}
+
+.SAOD-Proposal .premium-detail ul li {
+    color: rgb(37 56 88 / 50%);
+    font-size: 12px;
+}
+
+.SAOD-Proposal .premium-detail ul li b {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.SAOD-Proposal .total-amount {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500 !important;
+}
+
+.SAOD-Proposal .total-amount b {
+    font-size: 18px;
+    color: #0065FF;
+    font-weight: 600;
+    float: right;
+}
+
+.SAOD-Proposal .paCover h4 {
+    padding: 0;
+    margin: 0 0 10px 10px;
+    font-weight: 500;
+    letter-spacing: 0;
+    border-bottom: dashed 1px;
+    display: table;
+    color: #172b4d;
+    line-height: 20px;
+}
+
+.SAOD-Proposal .policy-detail .paCover h4 b {
+    display: inline-block;
+    font-weight: 600;
+    color: #e0a043;
+}
+
+.SAOD-Proposal .premium-detail h4 {
+    margin: 0 0 0 15px
+}
+
+.SAOD-Proposal .premium-detail .line {
+    width: 92%;
+}
+
+.SAOD-Proposal .premium-detail .btn-primary {
+    margin: 10px auto 0;
+    border-radius: 8px;
+}
+
+.SAOD-Proposal .mr-bottom {
+    margin-bottom: 10px
+}
+
+.SAOD-Proposal .paCover h4 {
+    font-size: 14px;
+}
+
+.SAOD-Proposal .Compulsory {
+    position: relative;
+    padding: 12px 24px;
+    transition: all .3s ease;
+    color: #172b4d;
+    font-size: 16px;
+    padding: 0;
+    margin: 0 0 0 25px;
+    font-weight: 600;
+    letter-spacing: 0;
+    border-bottom: dotted 1px;
+    display: table;
+    text-transform: none;
+    cursor: pointer
+}
+
+.SAOD-Proposal .Compulsory:before {
+    content: "";
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+    left: 330px;
+    top: 3px;
+    transition: all .3s ease;
+    transition-delay: 0.2s;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 8px 0;
+    border-color: transparent #607d8b transparent transparent
+}
+
+.SAOD-Proposal .Compulsory:after {
+    text-transform: none;
+    content: attr(data-tooltip);
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 400;
+    position: absolute;
+    color: #fff;
+    background: #607d8b;
+    padding: 8px 12px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    max-width: 200px;
+    opacity: 0;
+    pointer-events: none;
+    left: 337px;
+    top: -27px;
+    border-radius: 8px;
+    transition: all .3s ease;
+    transition-delay: 0.2s;
+    box-shadow: 0 6px 16px 0 rgb(52 105 203 / 16%);
+    z-index: 1
+}
+
+.SAOD-Proposal .Compulsory:hover:after,
+.SAOD-Proposal .Compulsory:hover:before {
+    opacity: 1
+}
+
+.SAOD-Proposal .policy-detail .paCover p {
+    cursor: pointer;
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa {
+    background: #fff;
+    box-shadow: 0 4px 16px 0 rgb(93 129 190 / 20%);
+    margin-top: 0;
+    border-radius: 12px;
+    border: solid #e8edf6 1px;
+    padding: 0
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .car-detail {
+    box-shadow: 0 4px 16px 0 rgb(93 129 190 / 20%);
+    background: #fff url(../images/bike_icon.svg) no-repeat right 12px top 12px;
+    box-shadow: none;
+    border: none;
+    background-color: #fafafa;
+    border-radius: 12px 12px 0 0;
+    border-bottom: solid #e7edfa 1px;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .car-detail.scooter {
+    background: #fff url(../images/scooterIcon.svg) no-repeat right 12px top 12px;
+    border: none;
+    background-color: #fafafa;
+    border-radius: 12px 12px 0 0;
+    border-bottom: solid #e7edfa 1px;
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay {
+    box-shadow: none;
+    background: #fff;
+    border: none;
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .msg-summary {
+    font-size: 12px;
+    margin: 15px 0 0 15px;
+    width: 90%;
+    border-radius: 4px;
+    padding: 6px;
+    background-image: linear-gradient(140deg, #f5f3ff 0, #fff 100%);
+    border: none
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .car-detail {
+    box-shadow: 0 4px 16px 0 rgb(93 129 190 / 20%);
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay {
+    box-shadow: 0 12px 16px 0 rgb(93 129 190 / 20%);
+    margin: 0 0 -10px 0;
+    border-radius: 0;
+    padding-bottom: 15px;
+    display: table;
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail {
+    background: none;
+    border-radius: 0;
+    box-shadow: 0px 12px 16px #3469cb29;
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .plan-detail {
+    border: none
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .plan-detail ul {
+    width: auto;
+    display: block;
+    clear: both;
+    margin: 0 0 6px 138px;
+    position: relative;
+    clear: both;
+    float: left
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .plan-detail ul li {
+    width: 100%;
+    font-size: 12px;
+    color: rgb(37 56 88 / 50%);
+    padding: 8px 0 8px 0;
+    list-style-type: none;
+    font-weight: 400;
+    display: inline-block
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .plan-detail ul li:nth-child(2) {
+    display: block;
+    text-align: left;
+    background: #80cdb1 url(../images/ncb-discount-icon.svg) no-repeat 7px 6px/12px;
+    position: relative;
+    left: 0;
+    top: 7px;
+    font-size: 12px;
+    color: #fff;
+    padding: 5px 10px 5px 23px;
+    border-radius: 6px;
+    font-weight: 400;
+    width: auto
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .premium-detail {
+    width: 100%;
+    box-shadow: 0px 14px 16px #3469cb29;
+    padding: 0;
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay .plan-detail {
+    border: none
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay .plan-detail ul {
+    width: auto;
+    display: block;
+    clear: both;
+    margin: 0 0 6px 138px;
+    position: relative;
+    clear: both;
+    float: left;
+    padding: 0;
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay .plan-detail ul li {
+    width: 100%;
+    font-size: 12px;
+    color: rgb(37 56 88 / 50%);
+    padding: 0px 0 0px 0;
+    list-style-type: none;
+    font-weight: 400;
+    display: inline-block
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay .plan-detail ul li:nth-child(2) {
+    display: block;
+    text-align: left;
+    background: #80cdb1 url(../images/ncb-discount-icon.svg) no-repeat 7px 6px/12px;
+    position: relative;
+    left: 0;
+    top: 7px;
+    font-size: 12px;
+    color: #fff;
+    padding: 3px 10px 3px 23px;
+    border-radius: 6px;
+    font-weight: 400;
+    width: auto
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay .plan-detail ul li:nth-child(2) b {
+    color: #fff;
+    font-weight: 600;
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail .paCover {
+    padding: 3px 0px 11px;
+    background: #fff;
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail .accidentCover {
+    background: #feede1;
+    width: 94%;
+    padding: 10px 6px 10px 32px;
+    border-radius: 8px 8px 0 0;
+    color: #be611c;
+    font-weight: 600;
+    box-shadow: 0 4px 10px 0 rgb(82 102 150 / 12%);
+    margin: 0 auto 0;
+    font-size: 14px;
+    position: relative;
+    border: solid #e5cebd 1px;
+    border-bottom: none;
+    z-index: 1
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail .accidentCover::before {
+    background: #fff url(../images/injury.svg) no-repeat 0 -1px/22px;
+    width: 26px;
+    height: 26px;
+    content: "";
+    position: absolute;
+    left: 3px;
+    top: 13px;
+    border-radius: 50%;
+    text-align: center;
+    border: solid #f5e1d3 1px
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail .accidentCover .cpa-tooltip {
+    position: relative;
+    transition: all .3s ease;
+    padding: 0;
+    cursor: pointer;
+    font-weight: 600;
+    z-index: 99
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail .accidentCover em {
+    display: block;
+    font-size: 10px;
+    color: #112972;
+    font-style: normal;
+    font-weight: 500;
+    padding-top: 1px
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail .accidentCover em b {
+    font-size: 10px;
+    display: inline-block;
+    font-weight: 600
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail .accidentCover .mandatory {
+    position: absolute;
+    top: -18px;
+    right: -7px;
+    background: #972d2d;
+    color: #fff;
+    font-size: 10px;
+    padding: 1px 8px;
+    border-radius: 8px 8px 0 8px
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail .accidentCover+.row {
+    width: 94%;
+    margin: 0 auto 10px;
+    height: auto;
+    padding: 10px 0 15px;
+    border-radius: 0 0 8px 8px;
+    background: #fff9f5;
+    border: solid #e5cebd 1px;
+    border-top: none;
+    box-shadow: 0 4px 10px 0 rgb(82 102 150 / 12%);
+    position: relative;
+    z-index: 1
+}
+
+.SAOD-Proposal .express-summary-right.new_cpa .policy-detail {
+    border: none;
+}
+
+.SAOD-Proposal .premium-detail .btn-primary:after {
+    left: 30%
+}
+
+/* Loader 2 */
+
+.loader-2 {
+    display: block;
+    height: 24px;
+    width: 24px;
+    -webkit-animation: loader-2-1 3s linear infinite;
+    animation: loader-2-1 3s linear infinite;
+}
+
+@-webkit-keyframes loader-2-1 {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes loader-2-1 {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loader-2 span {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+    clip: rect(10px, 20px, 20px, 0);
+    -webkit-animation: loader-2-2 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite;
+    /* animation: loader-2-2 1.5s cubic-bezier(0.770, 0.000, 0.175, 1.000) infinite; */
+}
+
+.loader-2 span::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #3f51b5d4;
+    border-radius: 50%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.loader-list {
+    width: auto;
+    display: table;
+    background: linear-gradient(290deg, #e2f4ff 28%, #e2ffd8 86.05%);
+    border-radius: 6px;
+    height: 40px;
+    padding-right: 35px;
+    margin: 0 0 30px;
+    border: solid #D3ECE4 1px;
+    margin-left: 9.5%;
+    top: -15px;
+    position: relative;
+}
+
+.loader-list ul {
+    width: 32px;
+    background: #fff;
+    height: 32px;
+    border-radius: 8px;
+    margin: 6px;
+    float: left
+}
+
+.loader-list ul li {
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    line-height: 32px
+}
+
+.loader-list .loaderTxt {
+    font-size: 12px;
+    margin: 15px 0 0 0;
+    float: left;
+    color: #253858
+}
+
+.loader-list .loaderTxt b {
+    font-weight: 500;
+}
+
+.loader-list .right-tick {
+    width: 13px;
+    height: 13px;
+    background: #4caf50 url(../images/tick_mark.png) no-repeat 3px 3px/7px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    top: 14px;
+    left: 4px
+}
+
+.discount-applied {
+    width: 95%;
+    display: table;
+    background: linear-gradient(290deg, #e2f4ff 28%, #e2ffd8 86.05%);
+    border-radius: 0 0 8px 8px;
+    height: 72px;
+    padding-right: 35px;
+    margin: -2px auto 0;
+    ;
+    box-shadow: 0px 6px 16px 0px #25385829;
+    border: solid #D3ECE4 1px;
+}
+
+.discount-applied ul {
+    width: 46px;
+    background: #fff;
+    height: 46px;
+    border-radius: 8px;
+    margin: 13px;
+    float: left;
+    border: solid #d6f1d3 1px
+}
+
+.discount-applied .discountTxt {
+    font-size: 14px;
+    margin: 14px 0 0 0;
+    float: left;
+    color: #253858;
+    line-height: 24px
+}
+
+.discount-applied .discountTxt b {
+    color: #69b271;
+    font-size: 20px;
+    display: block;
+    font-weight: 500
+}
+
+.discount-applied li {
+    margin: 6px;
+}
+
+.SAOD-Proposal .premium-detail ul li.ncb_amount {
+    color: #36a07b;
+}
+
+.SAOD-Proposal .premium-detail ul li.ncb_amount b {
+    color: #36a07b;
+}
+
+.SAOD-Proposal .total-amount b span {
+    text-decoration: line-through;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ABABAB;
+    margin-right: 12px;
+}
+
+.SAOD-Proposal .premium-detail .btn-primary:after {
+    left: 35%
+}
+
+/*.ncb-banefit{display: table;clear: both;margin-left: 9.5%;padding-left: 7px;font-size: 11px;line-height: 10px;margin-bottom: 10px;background: #fff6dc;padding: 5px 10px;border-radius: 12px;color: #76551C;font-weight: 400;}
+.ncb-banefit b{font-weight: 500;color: #76551C;}*/
+
+.ncb-banefit {
+    display: table;
+    clear: both;
+    margin-left: 9.5%;
+    padding-left: 7px;
+    font-size: 11px;
+    line-height: 10px;
+    margin-bottom: 10px;
+    padding: 7px 28px 7px 7px;
+    border-radius: 8px;
+    color: #2c9671;
+    font-weight: 500;
+    background: url(../images/ncb-discount-icon-green.svg) no-repeat 98% 4px / 15px, linear-gradient(158deg, #F9FFFB 15%, #CFF9E7 159%);
+    border: dashed #75B28B 1px;
+    border-radius: 6px;
+}
+
+.ncb-banefit b {
+    font-weight: 600;
+    color: #138F64;
+    font-size: 12px;
+}
+
+.express-summary .corona-kavach ul li {
+    margin-right: 15px;
+    width: 28%;
+}
+
+.SAOD-Proposal .premium-detail .btn-primary {
+    line-height: 41px;
+}
+
+.SAOD-Proposal .premium-detail .btn-primary:after {
+    left: 34%;
+}
+
+.SAOD-Proposal .formField input,
+.SAOD-Proposal .formField textarea,
+.SAOD-Proposal .react-datepicker-wrapper input[type="text"] {
+    border: solid 1px rgb(37 56 88 / 48%);
+    border-radius: 8px;
+}
+
+.SAOD-Proposal .vehicle-detail {
+    border-radius: 12px;
+}
+
+.SAOD-Proposal .formField input,
+.SAOD-Proposal .formField textarea,
+.SAOD-Proposal .react-datepicker-wrapper input[type="text"] {
+    color: #253858 !important
+}
+
+.SAOD-Proposal .formField input:placeholder-shown+label,
+.SAOD-Proposal .formField textarea:placeholder-shown+label {
+    color: #25375887;
+}
+
+.SAOD-Proposal .formField input:not(:placeholder-shown)+label,
+.SAOD-Proposal .formField input:focus+label,
+.SAOD-Proposal .formField textarea:not(:placeholder-shown)+label,
+.SAOD-Proposal .formField textarea:focus+label {
+    color: #25375887;
+    letter-spacing: 0px;
+}
+
+.formField .field {
+    margin-bottom: 28px;
+}
+
+.SAOD-Proposal .formField input:placeholder-shown+label,
+.SAOD-Proposal .formField textarea:placeholder-shown+label {
+    color: #25375887;
+}
+
+.SAOD-Proposal #title div select {
+    z-index: 8;
+    border-radius: 8px;
+    border: solid 1px rgb(37 56 88 / 48%);
+    padding: 14px 13px 13px;
+    background-position: right 8px top 20px;
+}
+
+.SAOD-Proposal .mr-bottom {
+    margin-bottom: 28px;
+}
+
+.formField .field div.rto {
+    z-index: 99;
+}
+
+select {
+    border-radius: 8px;
+    border: solid 1px rgb(37 56 88 / 48%);
+    padding: 12px 13px 12px;
+    font-size: 16px;
+}
+
+.SAOD-Proposal .formField .saod_heading div b {
+    font-weight: 500;
+}
+
+.SAOD-Proposal .formField .saod_heading div em {
+    font-style: normal;
+    color: #009498;
+    font-weight: 500;
+}
+
+.edu_text {
+    margin: -12px 0 28px 0;
+    line-height: 18px;
+    background: url(../images/bulbicon.png) no-repeat 0 0px / 14px;
+    padding-left: 20px;
+}
+
+.edu_text b {
+    color: rgb(55 73 103 / 90%);
+    font-weight: 600;
+}
+
+.edu_text sup {
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.SAOD-Proposal .react-datepicker-popper[data-placement^=top] {
+    z-index: 99;
+}
+
+.formField .field,
+.SAOD-Proposal .mr-bottom,
+.SAOD-Proposal .calender_cover {
+    margin-bottom: 24px;
+}
+
+.SAOD-Proposal .calender_cover {
+    margin-top: 0;
+    top: -10px;
+}
+
+.SAOD-Proposal .vehicle-form .row h4 {
+    line-height: 22px;
+    color: rgb(37 56 88 / 100%);
+    font-weight: 500;
+}
+
+.SAOD-Proposal .formField label {
+    margin-bottom: 2px;
+}
+
+.SAOD-Proposal #title div h4 {
+    top: -12px;
+}
+
+.SAOD-Proposal .customRadio span {
+    color: rgb(37 56 88 / 70%);
+}
+
+.SAOD-Proposal .react-datepicker__year-dropdown-container .react-datepicker__year-dropdown {
+    height: auto;
+    overflow-y: scroll;
+    max-height: 225px;
+}
+
+@media only screen and (min-width: 320px) and (max-width:768px) {
+    .container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .SAOD-Proposal header {
+        top: 0;
+        background: #fff;
+        width: 100%;
+        box-shadow: none;
+    }
+    .SAOD-Proposal header .backBtn {
+        width: 32px;
+        height: 32px;
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+        line-height: 38px;
+        margin: 14px 0 12px 13px;
+        border-radius: 8px;
+        background: #f2f7fe;
+        line-height: 29px;
+        overflow: hidden;
+        z-index: 0;
+    }
+    .SAOD-Proposal header div {
+        margin: 20px 0 12px 13px;
+        font-weight: 600;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 16px;
+    }
+    .SAOD-Proposal .vehicle-detail {
+        width: 100%;
+        padding: 10px;
+        margin: 0px auto;
+        display: table;
+        border-radius: 0;
+    }
+    .SAOD-Proposal #title {
+        margin-left: 0;
+    }
+    .SAOD-Proposal #title div {
+        width: 75px;
+    }
+    .SAOD-Proposal #custname {
+        float: right;
+        width: 74%;
+    }
+    .SAOD-Proposal #custname div {
+        width: 96%;
+        padding: 0;
+        margin: 0 0 0 3px;
+    }
+    .SAOD-Proposal #custname div .field {
+        margin: 0 0 15px 0;
+        width: 100%;
+    }
+    .SAOD-Proposal .vehicle-form {
+        top: 0;
+        padding: 0;
+    }
+    .SAOD-Proposal .express-summary-right {
+        width: 100%;
+        padding: 0;
+        position: inherit;
+        translate: unset;
+        margin-bottom: 240px;
+    }
+    .SAOD-Proposal .car-detail {
+        position: absolute;
+        top: 64px;
+        z-index: 999;
+        width: 100%;
+    }
+    .SAOD-Proposal .formField .field.fullName {
+        display: flex;
+    }
+    .SAOD-Proposal .formField .fullName label {
+        font-weight: 400;
+    }
+    .SAOD-Proposal .titlebox {
+        width: 22%;
+    }
+    .SAOD-Proposal .formField .field.fullName select {
+        font-size: 14px;
+        line-height: 16px;
+        color: rgb(37 56 88 / 100%);
+        font-weight: 500;
+    }
+    .SAOD-Proposal .fullrtoregno {
+        width: 77%;
+        margin: 0;
+    }
+    .SAOD-Proposal .row h4 {
+        line-height: 28px;
+        color: rgb(37 56 88 / 100%);
+        font-weight: 500;
+    }
+    .vehicle-detail .car-detail,
+    .vehicle-detail .policy-detail,
+    .vehicle-detail .premium-detail {
+        margin-bottom: 15px;
+        background: #fff;
+        border-radius: 6px;
+        box-shadow: 0 2px 32px 0px rgb(37 56 88 / 16%);
+        padding: 10px 0;
+    }
+    .SAOD-Proposal .btn-fixed {
+        display: table;
+        width: 100%;
+        background: #fff;
+        position: fixed;
+        bottom: 0;
+        z-index: 99;
+        box-shadow: 0px -2px 10px rgb(37 56 88 / 20%);
+        border-top: solid 1px #dee2f1;
+        padding-bottom: 8px;
+    }
+    .SAOD-Proposal .t_c {
+        font-size: 12px;
+        color: rgb(37 56 88 / 70%);
+        width: 97%;
+        margin: 15px auto 0;
+    }
+    .SAOD-Proposal .vehicle-detail .t_c {
+        display: none;
+    }
+    .SAOD-Proposal .vehicle-detail .btn-primary {
+        display: none;
+    }
+    .SAOD-Proposal .vehicle-detail .line {
+        display: none;
+    }
+    .SAOD-Proposal .breakupTxt {
+        width: 42%;
+        float: left;
+        margin: 1px 0 0px 15px;
+    }
+    .SAOD-Proposal .breakupTxt b {
+        font-weight: 500;
+        font-size: 18px;
+        color: #172B4D;
+    }
+    .SAOD-Proposal .breakupTxt em {
+        font-size: 10px;
+        color: rgb(80 95 121 / 70%);
+        margin-left: 3px;
+        font-weight: 400;
+    }
+    .SAOD-Proposal .breakupTxt p {
+        font-size: 12px;
+        color: #0065FF;
+        margin: 0;
+        padding: 0 0 0 0;
+        position: relative;
+        width: auto;
+        display: block;
+        top: 0px;
+        font-weight: 400;
+        letter-spacing: 0.1px;
+    }
+    .SAOD-Proposal .breakupTxt p::before {
+        content: "";
+        display: block;
+        box-sizing: border-box;
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        transform: rotate(-45deg);
+        right: -11px;
+        top: 12px;
+    }
+    .SAOD-Proposal .breakupTxt p::before {
+        border-top: 2px solid;
+        border-right: 2px solid;
+        display: none;
+    }
+    .SAOD-Proposal .btn-submit {
+        width: 46%;
+        margin: 20px 15px 14px 0;
+        height: 46px;
+        float: right;
+    }
+    .SAOD-Proposal .premium-detail {
+        width: 100%;
+        min-height: 300px;
+        position: fixed;
+        background: #fff;
+        bottom: 0;
+        z-index: 999;
+        left: 0;
+        padding: 50px 20px 20px;
+        border-radius: 32px 32px 0 0;
+        box-shadow: none;
+    }
+    .SAOD-Proposal .premium-detail .icn-close {
+        display: block;
+        position: absolute;
+        right: 18px;
+        top: 17px;
+        z-index: 9;
+        filter: opacity(0.5);
+    }
+    .SAOD-Proposal .premium-detail h1 {
+        position: absolute;
+        top: 0;
+        background: #f2f7fe;
+        width: 100%;
+        left: 0;
+        border-radius: 24px 24px 0 0;
+        padding: 20px 0 12px 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .SAOD-Proposal .premium-detail ul {
+        padding: 0;
+    }
+    .SAOD-Proposal .premium-detail h2 {
+        padding: 0;
+        margin: 30px 0 4px 0;
+        color: rgb(37 56 88 / 100%);
+        font-size: 1.4rem;
+        width: 58%;
+        float: right;
+    }
+    .SAOD-Proposal .premium-detail ul li {
+        color: rgb(37 56 88 / 60%);
+        line-height: 26px;
+        font-size: 1.2rem;
+    }
+    .SAOD-Proposal .premium-detail ul li b {
+        font-size: 14px;
+    }
+    .SAOD-Proposal .premium-detail .line,
+    .SAOD-Proposal .premium-detail .total-amount {
+        display: none;
+    }
+    .SAOD-Proposal .premium-detail ul+.line {
+        display: block;
+    }
+    .SAOD-Proposal .premium-detail .total-amount {
+        display: block;
+        padding: 0;
+        margin: 0 -10px;
+        font-size: 1.6rem;
+    }
+    .SAOD-Proposal .formField .fullrtoregno input:focus-within {
+        background: #fff;
+    }
+    .SAOD-Proposal .paCover h3 .tooltip {
+        left: -190px;
+        width: 342px;
+    }
+    .SAOD-Proposal .paCover h3 .tooltip:after {
+        margin-left: 16px;
+    }
+    .SAOD-Proposal .express-summary-right .btn-primary {
+        width: 50%;
+        line-height: 36px;
+        height: 48px;
+        margin: 0px auto 10px;
+        border-radius: 6px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .SAOD-Proposal .express-summary-right .premium-detail .btn-primary {
+        width: 100%;
+        margin: 20px auto 0;
+    }
+    .SAOD-Proposal .footer {
+        display: none !important;
+    }
+    .SAOD-Proposal .policy-detail {
+        margin: 10px 0 0 0;
+        padding-bottom: 15px;
+        position: absolute;
+        top: unset;
+        margin: 0;
+        border-radius: 0;
+        box-shadow: 0px 1px 3px rgb(35 71 137 / 20%);
+        width: 100%;
+        margin-top: 10px;
+    }
+    .SAOD-Proposal .policy-detail+.policy-detail {
+        position: unset;
+        margin-top: 12px;
+        margin-bottom: 25px;
+        padding-bottom: 5px;
+        width: 100%;
+        margin: 10px auto 25px;
+        border-radius: 0;
+    }
+    .SAOD-Proposal .policy-detail+.policy-detail .paCover {
+        margin-top: 0;
+        border: none;
+        padding-top: 5px;
+    }
+    .SAOD-Proposal .formField h2 {
+        font-size: 16px;
+        margin: 10px 0 24px;
+        line-height: 20px;
+    }
+    .SAOD-Proposal .formField h2 span {
+        font-size: 12px;
+    }
+    .SAOD-Proposal .formField input,
+    .SAOD-Proposal .formField textarea {
+        border: 1px solid rgb(37 56 88 / 50%);
+        border-radius: 6px;
+        font-weight: 400;
+    }
+    select {
+        border: 1px solid rgb(37 56 88 / 50%);
+        border-radius: 6px;
+        padding: 12px 8px;
+        font-weight: 400;
+    }
+    .SAOD-Proposal .mr-bottom .col-xs-4 {
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+    .SAOD-Proposal .policy-detail h2 {
+        font-size: 14px;
+        font-weight: 400;
+        color: #253858;
+    }
+    .SAOD-Proposal .plan-detail ul {
+        width: 58%;
+        margin: 0px 0 10px 0;
+        float: right;
+    }
+    .SAOD-Proposal .plan-detail ul li {
+        width: 100%;
+        color: rgb(23 43 77 / 60%);
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .SAOD-Proposal .plan-detail ul li b {
+        display: inline-block;
+        padding-left: 7px;
+        color: rgb(23 43 77 / 80%);
+        font-size: 1.2rem;
+    }
+    .SAOD-Proposal .plan-detail img {
+        width: 130px;
+        margin: -18px 0 10px 0;
+        float: left;
+    }
+    .SAOD-Proposal .msg-summary {
+        clear: both;
+        margin: 0;
+        position: relative;
+        top: 7px;
+        border: solid #e1e5f9 1px;
+        border-radius: 4px;
+        padding: 6px 0 5px 34px;
+        background-position: 10px 7px;
+        width: 100%;
+    }
+    .SAOD-Proposal .plan-detail {
+        padding: 0;
+        clear: both;
+    }
+    .SAOD-Proposal .plan-detail ul li:nth-child(2) b {
+        color: rgb(23 43 77 / 80%);
+    }
+    .SAOD-Proposal .msg-summary b {
+        color: #253858;
+        font-weight: 500;
+    }
+    .SAOD-Proposal .premiumChanged {
+        width: 100%;
+        bottom: -2px;
+        top: unset;
+        transform: translate(0, 0%);
+        left: 0;
+        border-radius: 32px 32px 0 0;
+    }
+    .SAOD-Proposal .cd-popup {
+        z-index: 999;
+    }
+    .SAOD-Proposal .cd-popup-container {
+        border-radius: 32px 32px 0 0;
+        transform: translate(0, 0);
+        left: 0;
+        width: 100%;
+        bottom: -1px;
+        top: unset;
+    }
+    .SAOD-Proposal .premium-detail .plan-detail {
+        border: none;
+        box-shadow: 0px 1px 4px #3469CB29;
+        display: table;
+        width: 100%;
+        background: #fff;
+        margin: 15px auto;
+        border-radius: 8px;
+    }
+    .SAOD-Proposal .premium-detail .plan-detail img {
+        width: 90px;
+        margin: 10px 20px 0 15px;
+        top: 0;
+    }
+    .SAOD-Proposal .premium-detail .plan-detail .insurer_name {
+        float: left;
+        margin: 8px 0 0 0;
+        line-height: 18px;
+        display: block;
+        font-size: 12px;
+        color: #253858;
+        font-weight: 500;
+    }
+    .SAOD-Proposal .premium-detail .plan-detail .insurer_name span {
+        font-weight: 400;
+        font-size: 10px;
+        color: rgb(37 56 88 / 60%);
+        display: block;
+    }
+    .SAOD-Proposal .premium-detail .plan-detail .msg-summary {
+        color: #253858;
+        font-size: 12px;
+        background: none;
+        margin: 0;
+        padding: 0px 0 0 15px;
+        border: none;
+        font-weight: 400;
+    }
+    .SAOD-Proposal .premium-detail .plan-detail ul {
+        width: 100%;
+        border-top: solid rgb(185 201 226 / 40%) 1px;
+        margin-top: 20px;
+    }
+    .SAOD-Proposal .premium-detail .plan-detail ul li {
+        width: 52%;
+        font-size: 12px;
+        color: rgb(37 56 88 / 50%);
+        padding: 8px 0 0px 15px;
+        font-weight: 400;
+    }
+    .SAOD-Proposal .premium-detail .plan-detail ul li b {
+        font-weight: 400;
+        font-size: 12px;
+        float: unset;
+        padding: 0;
+        color: rgb(23 43 77 / 100%);
+    }
+    .SAOD-Proposal .premium-detail .plan-detail ul li:nth-child(2) {
+        text-align: right;
+        padding-right: 20px;
+        padding-left: 0;
+        width: 48%;
+    }
+    .SAOD-Proposal .premium-detail ul.bike-detail {
+        background: #F9F9F9;
+        border-radius: 8px;
+        margin: 22px auto 0;
+        padding: 6px 10px;
+    }
+    .SAOD-Proposal .premium-detail ul.bike-detail li:nth-child(1) {
+        width: 100%;
+        font-weight: 400;
+        color: rgb(37 56 88 / 60%);
+    }
+    .SAOD-Proposal .premium-detail ul.bike-detail li em {
+        font-style: normal;
+    }
+    .SAOD-Proposal .premium-detail ul.bike-detail li {
+        position: relative;
+        display: inline-block;
+        line-height: 20px;
+        font-size: 12px;
+        font-weight: 500;
+        color: rgb(37 56 88 / 80%);
+        padding-right: 15px;
+    }
+    .SAOD-Proposal .premium-detail ul.bike-detail li:last-child:before {
+        position: absolute;
+        left: -9px;
+        top: 8px;
+        width: 4px;
+        height: 4px;
+        background-color: rgb(37 56 88 / 80%);
+        border-radius: 20px;
+        content: "";
+    }
+    /*******error page css***********/
+    .is-visible .cd-popup-container.error_popup {
+        width: 100%;
+        padding: 20px 10px 10px;
+    }
+    .is-visible .cd-popup-container.error_popup img {
+        position: unset;
+        margin: 5px auto 0px;
+    }
+    .is-visible .cd-popup-container.error_popup .button-row .errorbutton:nth-child(1) {
+        float: unset !important;
+        color: #253858 !important;
+        font-size: 14px;
+        background: none;
+        text-align: center;
+        width: 100% !important;
+    }
+    .is-visible .cd-popup-container.error_popup .button-row .errorbutton:nth-child(2) {
+        float: unset !important;
+        text-decoration: underline !important;
+        font-size: 14px;
+        width: 100% !important;
+        background: #0065FF;
+        color: #fff;
+        text-decoration: none !important;
+        line-height: 50px;
+        border-radius: 8px;
+        margin: 30px auto 0 !important;
+    }
+    .is-visible .cd-popup-container.error_popup b,
+    .is-visible .cd-popup-container.error_popup p {
+        text-align: center;
+        padding: 0px 0 5px;
+    }
+    .is-visible .cd-popup-container.error_popup .quote-tile-actual .quote-tile-inner {
+        position: relative;
+        display: flex;
+    }
+    .is-visible .cd-popup-container.error_popup .show-idv-section {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .is-visible .cd-popup-container.error_popup .show-idv-section span,
+    .is-visible .cd-popup-container.error_popup .claim-set-section span {
+        text-align: center;
+    }
+    .is-visible .cd-popup-container.error_popup .show-idv-section span label,
+    .is-visible .cd-popup-container.error_popup .claim-set-section span label {
+        color: #25385880;
+        padding-top: 6px;
+    }
+    .is-visible .cd-popup-container.error_popup .claim-set-section {
+        position: absolute;
+        width: 100%;
+        bottom: 1px;
+    }
+    .is-visible .cd-popup-container.error_popup .show-idv-section span,
+    .is-visible .cd-popup-container.error_popup .claim-set-section span {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .is-visible .cd-popup-container.error_popup .buy-now-section {
+        width: 30%;
+    }
+    .is-visible .cd-popup-container.error_popup .claim-set-section span label {
+        display: inline-block;
+    }
+    .is-visible .cd-popup-container.error_popup .gst-exc {
+        margin-top: -10px;
+        padding-top: 0
+    }
+    .is-visible .cd-popup-container.error_popup .button-row .errorbutton:nth-child(2) {
+        color: #fff !important
+    }
+    .is-visible .cd-popup-container.error_popup .show-idv-section span {
+        font-weight: 600;
+    }
+    .SAOD-Proposal .policy-detail .premium-detail {
+        position: unset;
+        padding-top: 0;
+    }
+    .SAOD-Proposal .policy-detail .paCover {
+        border-bottom: 1px solid #faefe8;
+        background: #fffbf8;
+    }
+    .SAOD-Proposal .policy-detail.evenReg {
+        padding: 0;
+    }
+    .SAOD-Proposal .policy-detail .paCover {
+        padding-top: 15px;
+    }
+    .SAOD-Proposal .policy-detail .total-amount {
+        width: 100%;
+        margin: 0 auto;
+        border-top: solid 1px rgb(0 0 0 / 15%);
+        padding-top: 10px;
+        margin-top: 10px;
+    }
+    .SAOD-Proposal .vehicle-detail {
+        padding-top: 0;
+        background: #fff url(../images/bg-pattern.svg) no-repeat right -23px top -59px;
+    }
+    .SAOD-Proposal .vehicle-detail .saod_heading {
+        padding-top: 10px;
+        font-size: 16px;
+    }
+    .SAOD-Proposal .vehicle-detail .saod_heading b {
+        font-weight: 400;
+    }
+    .SAOD-Proposal .vehicle-detail .saod_heading em {
+        font-style: normal;
+        color: #009498;
+        font-weight: 500;
+    }
+    .SAOD-Proposal .policy-detail {
+        padding-top: 0;
+    }
+    .SAOD-Proposal .express-summary-right .btn-primary {
+        padding-left: 32px;
+        position: relative;
+    }
+    .SAOD-Proposal .express-summary-right .btn-primary:after {
+        background: url(../images/lock-icon.svg) no-repeat 0 center / 14px;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 15%;
+        top: 13px;
+        content: "";
+    }
+    .SAOD-Proposal .policy-detail.reviewPay {
+        position: unset;
+        width: 96%;
+        margin: 10px auto 0;
+        border-radius: 8px 8px 0 0;
+        box-shadow: 0px 8px 12px rgb(35 71 137 / 16%);
+    }
+    .SAOD-Proposal .policy-detail.reviewPay h2 {
+        font-size: 18px;
+        font-weight: 500;
+        width: 100%;
+        display: table;
+        margin: 0;
+        padding: 15px;
+        background: #F8F8F8;
+        border-radius: 8px 8px 0 0;
+        margin-bottom: 10px;
+    }
+    .SAOD-Proposal .policy-detail.reviewPay .plan-detail ul {
+        float: inherit;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .SAOD-Proposal .policy-detail.reviewPay .plan-detail ul li {
+        padding: 0;
+    }
+    .SAOD-Proposal .policy-detail.reviewPay .plan-detail {
+        width: auto;
+        border: none;
+        display: table;
+        margin-left: 136px;
+    }
+    .SAOD-Proposal .policy-detail.reviewPay+.policy-detail {
+        margin-top: 0;
+        width: 96%;
+        box-shadow: 0px 8px 12px rgb(35 71 137 / 16%);
+        border-radius: 0 0 8px 8px;
+    }
+    .SAOD-Proposal .policy-detail.reviewPay+.policy-detail .premium-detail {
+        min-height: auto;
+    }
+    .SAOD-Proposal .policy-detail.reviewPay+.policy-detail .paCover {
+        margin-top: 0;
+        border: none;
+        padding-top: 5px;
+        /* background: none; */
+        width: 95%;
+        border-radius: 8px;
+        border: 1px solid #faefe8;
+        padding: 15px 6px;
+    }
+    .SAOD-Proposal .policy-detail.reviewPay ul li b {
+        font-weight: 600;
+        padding-left: 0;
+    }
+    .SAOD-Proposal .express-summary-right .btn-primary:after {
+        left: 15%;
+    }
+    .SAOD-Proposal .express-summary-right {
+        overflow: hidden;
+    }
+    .SAOD-Proposal .calender_cover {
+        margin-bottom: 22px;
+    }
+    .SAOD-Proposal .calender_cover .react-datepicker-wrapper {
+        width: 100%;
+    }
+    .SAOD-Proposal .calender_cover .react-datepicker-wrapper input[type="text"] {
+        padding: 12px 8px;
+        background-position: right 8px top 14px;
+        border: solid #929bac 1px;
+    }
+    .SAOD-Proposal .calender_cover .col-xs-11 {
+        width: 100%;
+    }
+    .SAOD-Proposal .policy-detail .paCover h3 {
+        z-index: 9;
+    }
+    .SAOD-Proposal .express-summary-right .premium-detail .btn-primary:after {
+        left: 36%;
+    }
+    .formField .field div.rto {
+        z-index: 9;
+    }
+    .SAOD-Proposal .policy-detail.reviewPay .plan-detail ul {
+        display: block;
+    }
+    .SAOD-Proposal .policy-detail.reviewPay .plan-detail ul li {
+        width: 100%;
+    }
+    .SAOD-Proposal .policy-detail.reviewPay .plan-detail ul li:nth-child(2) {
+        position: unset;
+        display: block;
+        clear: both;
+        width: 100%;
+        /* left: 200px; */
+        margin-left: 138px;
+        border-radius: 4px;
+        background: #ECF7F3 url(../images/ncb-discount-icon-green.svg) no-repeat 7px 4px / 12px;
+        color: #36A07B;
+        margin: 0;
+        padding: 0 10px 0 24px;
+        margin-top: 8px;
+        font-size: 11px;
+    }
+    .SAOD-Proposal .policy-detail.reviewPay .plan-detail ul li:nth-child(2) b {
+        color: #36A07B;
+        font-weight: 500;
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay+.policy-detail .paCover {
+        padding: 12px 5px;
+        padding: 0;
+        background: none;
+        border: none;
+        width: 100%;
+        margin: 0;
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay+.policy-detail {
+        background: #fff;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin: 0 auto 15px;
+    }
+    .SAOD-Proposal .row .paCover h4 {
+        text-decoration: underline;
+        border: none;
+        line-height: 20px;
+    }
+    .SAOD-Proposal .policy-detail .paCover h4 b {
+        display: inline;
+        line-height: 20px;
+    }
+    .SAOD-Proposal .premium-detail h4 {
+        margin: 15px 0 0px 0;
+        text-decoration: none !important;
+    }
+    .SAOD-Proposal .premium-detail {
+        padding-bottom: 10px;
+    }
+    .SAOD-Proposal .policy-detail.reviewPay+.policy-detail {
+        background: #fff;
+        background: #fff;
+        padding-bottom: 15px;
+        border: none;
+        clear: both
+    }
+    .SAOD-Proposal .policy-detail.reviewPay+.policy-detail .premium-detail {
+        box-shadow: none;
+        width: 92%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa {
+        margin: 10px auto 150px;
+        width: 95%;
+        display: table;
+        background: #fff;
+        box-shadow: 0 4px 16px 0 rgb(93 129 190 / 20%);
+    }
+    .SAOD-Proposal .btn-fixed {
+        left: 0;
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .policy-detail .accidentCover {
+        width: 100%;
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .policy-detail .accidentCover+.row {
+        width: 100%
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay .plan-detail ul {
+        margin: 0;
+        border: none;
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay .plan-detail ul li:nth-child(2) {
+        padding: 2px 10px 2px 23px;
+        top: 0;
+        float: left;
+    }
+    .SAOD-Proposal .policy-detail.reviewPay {
+        padding: 0 0 20px 0;
+        width: 96%;
+        display: table;
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .policy-detail .accidentCover em b {
+        display: inline;
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .policy-detail .accidentCover em {
+        font-size: 9px;
+        font-weight: 400;
+    }
+    .SAOD-Proposal .premium-detail ul.bike-detail {
+        width: 100%;
+        margin: 20px auto 0;
+    }
+    .SAOD-Proposal .premium-detail .plan-detail {
+        width: 100%;
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .premium-detail {
+        padding: 50px 20px 20px
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay {
+        margin: 0;
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .policy-detail.reviewPay {
+        width: 100%;
+        box-shadow: none;
+    }
+    .SAOD-Proposal .premium-detail ul+.line {
+        width: 100%
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .plan-detail ul {
+        width: 100%;
+        border-top: solid rgb(185 201 226 / 40%) 1px;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .plan-detail ul li {
+        width: 52%;
+        font-size: 12px;
+        color: rgb(37 56 88 / 50%);
+        padding: 8px 0 0px 15px;
+        font-weight: 400;
+    }
+    .SAOD-Proposal .express-summary-right.new_cpa .plan-detail ul li:nth-child(2) {
+        text-align: right;
+        padding-right: 20px;
+        padding-left: 0;
+        width: 48%;
+        background: none;
+        float: right;
+        color: rgb(37 56 88 / 50%);
+    }
+    .loader-list {
+        width: 96%;
+        margin: 0 auto;
+        top: 0;
+        padding-right: 10px
+    }
+    .loader-list .loaderTxt {
+        width: auto;
+    }
+    .discount-applied {
+        left: 0;
+        margin: -6px auto;
+        height: 26px;
+        border-radius: 0;
+        border: none;
+        border-bottom: solid #D3ECE4 1px;
+        width: 100%;
+        background: linear-gradient(290deg, #ecf8ff 28%, #f5fff1 86.05%);
+        position: fixed;
+        bottom: 108px;
+        z-index: 999;
+        box-shadow: 0px -4px 10px 0px #25385814;
+    }
+    .discount-applied ul {
+        width: 36px;
+        height: 33px;
+        background: none;
+        border: none;
+        margin: 0;
+    }
+    .discount-applied ul img {
+        width: 24px;
+    }
+    .discount-applied .discountTxt {
+        margin: 5px 0 0 10px;
+        color: #709b71;
+        font-size: 12px;
+    }
+    .discount-applied .discountTxt b {
+        display: none;
+    }
+    .discount-applied li {
+        margin: 6px 0 0 14px;
+    }
+    .SAOD-Proposal .cd-popup {
+        z-index: 1000;
+    }
+    .ncb-banefit {
+        margin-left: 1.5%;
+        font-size: 10px;
+    }
+    .express-summary .corona-kavach ul li {
+        width: 32%;
+        margin-right: 4px;
+    }
+    .SAOD-Proposal .breakupTxt b {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .SAOD-Proposal .breakupTxt {
+        margin-top: 10px;
+    }
+    .SAOD-Proposal .circle-wrap {
+        display: block;
+        margin: 0;
+        width: 150px;
+        height: 150px;
+        background: #d2d2d2;
+        border-radius: 50%;
+        transform: scale(0.24);
+        right: -45px;
+        top: -47px;
+        margin: 0;
+        position: absolute;
+        overflow: hidden;
+    }
+    .SAOD-Proposal .circle-wrap .circle .mask,
+    .SAOD-Proposal header .circle-wrap .circle .fill {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        border-radius: 50%;
+    }
+    .SAOD-Proposal .circle-wrap .circle .mask {
+        clip: rect(0px, 150px, 150px, 75px);
+        margin: 0;
+    }
+    .SAOD-Proposal .circle-wrap .inside-circle {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        background: #fff;
+        line-height: 120px;
+        text-align: center;
+        margin-top: 12px;
+        margin-left: 12px;
+        color: #252733;
+        position: absolute;
+        z-index: 100;
+        font-weight: 600;
+        font-size: 56px;
+    }
+    .SAOD-Proposal .mask .fill {
+        clip: rect(0px, 75px, 150px, 0px);
+        background-color: #36B37E;
+    }
+    .SAOD-Proposal .mask.full,
+    .SAOD-Proposal .circle .fill {
+        animation: fill ease-in-out 3s;
+        transform: rotate(180deg);
+    }
+    .SAOD-Proposal header .circle-wrap .circle,
+    .SAOD-Proposal header .circle-wrap .circle .fill {
+        margin: 0;
+    }
+    @keyframes fill {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(180deg);
+        }
+    }
+    @keyframes fill2 {
+        0% {
+            transform: rotate(113deg);
+        }
+        100% {
+            transform: rotate(180deg);
+        }
+    }
+    .SAOD-Proposal #title div select {
+        padding: 13px 13px 13px;
+    }
+    .formField .field div.rto {
+        z-index: 11;
+    }
+    .SAOD-Proposal .formField input,
+    .SAOD-Proposal .formField textarea {
+        border-radius: 8px;
+    }
+    select {
+        border-radius: 8px;
+    }
+    .bike-detail {
+        width: 100%;
+        display: flex;
+        font-size: 12px;
+        padding: 11px 10px 9px;
+        border-top: solid rgb(37 56 88 / 8%) 1px;
+        box-shadow: 0px 2px 3px rgb(128 145 177 / 30%);
+        color: #929597;
+        background: #f4f7fc;
+        right: 0;
+        position: unset;
+        border-left: none;
+        margin: -1px 0 0 0;
+        z-index: 1;
+        position: relative;
+    }
+    .bike-detail li {
+        display: inline-block;
+        padding: 0px 5px 2px;
+        line-height: 9px;
+        color: rgb(37 56 88 / 75%);
+        font-size: 11px;
+        width: auto;
+        font-weight: 400;
+    }
+    .bike-detail li:nth-child(2) {
+        max-width: 138px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 9px;
+        font-size: 12px;
+        color: rgb(37 56 88 / 75%);
+        padding-left: 0;
+        display: inline-block;
+        font-weight: 400;
+        display: block;
+        clear: both;
+        text-align: left;
+        border-right: solid #343434 1px;
+    }
+    .bike-detail li:nth-child(3) {
+        position: relative;
+        top: 0px;
+        font-size: 12px;
+        color: rgb(37 56 88 / 75%);
+        font-weight: 400;
+    }
+    .bike-detail li:nth-child(1) {
+        width: 75px;
+        color: rgb(37 56 88 / 40%);
+    }
+    .SAOD-Proposal header {
+        display: flex;
+        background: #F3F7FC;
+    }
+    .SAOD-Proposal header .backBtn {
+        width: 26px;
+        height: 26px;
+        display: inline-block;
+        text-align: center;
+        vertical-align: top;
+        line-height: 38px;
+        margin: 19px 15px 12px 10px;
+        border-radius: 8px;
+        background: #ffffff;
+        line-height: 24px;
+    }
+    .SAOD-Proposal header .backBtn img {
+        width: 8px;
+    }
+    .SAOD-Proposal header h5 {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 12px 0 10px;
+    }
+    .SAOD-Proposal header span {
+        display: block;
+        font-size: 12px;
+        opacity: 0.5;
+        font-weight: 400;
+    }
+    .formField .field {
+        margin-bottom: 17px;
+    }
+    .SAOD-Proposal .mr-bottom {
+        margin-bottom: 0;
+    }
+    .bike-detail li:nth-child(3) {
+        border-right: solid #343434 1px;
+    }
+    .bike-detail li:last-child {
+        border: none;
+    }
+    .bike-detail li:nth-child(2) {
+        max-width: 89px;
+    }
+    .SAOD-Proposal+.footer {
+        margin: 10px auto 100px;
+        border-top: none;
+    }
+    .SAOD-Proposal .formField label {
+        margin-bottom: 20px;
+    }
+    .bike-detail li {
+        line-height: 11px !important;
+        padding: 1px 5px 1px;
+    }
+    .SAOD-Proposal #title div h4 {
+        top: -11px;
+    }
+    .bike-detail {
+        padding: 11px 6px 9px;
+    }
+    .SAOD-Proposal .mr-bottom select {
+        margin-bottom: 15px;
+    }
+    .SAOD-Proposal .react-datepicker__year-dropdown-container .react-datepicker__year-dropdown {
+        height: auto;
+        overflow-y: scroll;
+    }
+}
